@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lookup>
+    <entry>
+        <abbr>HuC</abbr>
+        <full>Humanities Cluster</full>
+    </entry>
+    <entry>
+        <abbr>MI</abbr>
+        <full>Meertens Institute</full>
+    </entry>
+    <entry>
+        <abbr>HI</abbr>
+        <full>Huygens Institute</full>
+    </entry>
+    <entry>
+        <abbr>IISH</abbr>
+        <full>International Institute for Social History</full>
+    </entry>
+    <entry>
+        <abbr>DI</abbr>
+        <full>Digital Infrastructure</full>
+    </entry>
+    <entry>
+        <abbr>BB</abbr>
+        <full>Bedrijfs Bureau</full>
+    </entry>
+</lookup>
