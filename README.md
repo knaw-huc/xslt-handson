@@ -1,5 +1,6 @@
-# xslt-handson
-Material for the HuC XSLT handson sessions, which started in March 2026.
+# KNAW HuC XSLT handson sessions
+
+Material for the [HuC](https://huc.knaw.nl/) [XSLT](https://www.w3.org/TR/xslt/) handson sessions, which started in March 2026.
 
 ## 5 March 2026
 
