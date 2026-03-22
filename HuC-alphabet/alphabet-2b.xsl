@@ -4,7 +4,7 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     version="3.0">
 
-    <xsl:output method="xhtml" encoding="UTF-8"/>
+    <xsl:output method="html" encoding="UTF-8"/>
 
     <xsl:template match="lookup">
         <html>
@@ -15,22 +15,28 @@
                 <ul>
                     <xsl:apply-templates select="*">
                         <xsl:sort select="."/>
+                        <xsl:with-param name="letter" select="'strong'" tunnel="yes"/>
                     </xsl:apply-templates>
                 </ul>
             </body>
         </html>
     </xsl:template>
     
+    <xsl:template name="is_for">
+        <xsl:param name="letter" tunnel="yes"/>
+        <xsl:element name="{$letter}">
+            <xsl:value-of select="substring(local-name(), 1, 1)"/>
+        </xsl:element>
+        <xsl:text> is for </xsl:text>
+        <abbr title="{.}">
+            <xsl:value-of select="local-name()"/>
+        </abbr>
+        <xsl:text>!</xsl:text>
+    </xsl:template>
+
     <xsl:template match="*">
         <li>
-            <strong>
-                <xsl:value-of select="substring(local-name(), 1, 1)"/>
-            </strong>
-            <xsl:text> is for </xsl:text>
-            <abbr title="{.}">
-                <xsl:value-of select="local-name()"/>
-            </abbr>
-            <xsl:text>!</xsl:text>
+            <xsl:call-template name="is_for"/>
         </li>
     </xsl:template>
 
