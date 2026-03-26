@@ -12,19 +12,24 @@
                 <title>HuC alphabet</title>
             </head>
             <body>
-                <xsl:for-each select="entry">
-                    <phttps://github.com/knaw-huc/xslt-handson/blob/main/HuC-alphabet/alphabet-1a.xsl#L15>
+                <xsl:for-each-group select="entry" group-by="substring(abbr, 1, 1)">
+                    <xsl:sort order="ascending"/>
+                    <p>
                         <strong>
-                            <xsl:value-of select="substring(abbr, 1, 1)"/>
-                            <!--<xsl:value-of select="replace(abbr,'^([a-zA-Z]).*$','$1')"/>--> 
+                            <xsl:value-of select="current-grouping-key()"/>
                         </strong>
                         <xsl:text> is for </xsl:text>
-                        <abbr title="{full}">
-                            <xsl:value-of select="abbr"/>
-                        </abbr>
+                        <xsl:for-each select="current-group()">
+                            <abbr title="{full}">
+                                <xsl:value-of select="abbr"/>
+                            </abbr>
+                            <xsl:if test="position()!=last()">
+                                <xsl:text> or </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
                         <xsl:text>!</xsl:text>
                     </p>
-                </xsl:for-each>
+                </xsl:for-each-group>
             </body>
         </html>
     </xsl:template>
