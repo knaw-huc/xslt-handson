@@ -5,8 +5,8 @@ Material for the [HuC](https://huc.knaw.nl/) [XSLT](https://www.w3.org/TR/xslt/)
 ## 5 March 2026
 
 - [presentation](https://docs.google.com/presentation/d/1XMHip0uGTNE2inpu5WK9fP4LNiocKiY40t_pZ9jzUBI/edit?usp=sharing) 'till slides 13:
-- 1. intro
-- 2. basics
+  1. intro
+  2. basics (doc oriented)
 
 - exercises:
   1. [X is for ...](./X_is_for)
@@ -15,7 +15,7 @@ Material for the [HuC](https://huc.knaw.nl/) [XSLT](https://www.w3.org/TR/xslt/)
 
 - [presentation](https://docs.google.com/presentation/d/1XMHip0uGTNE2inpu5WK9fP4LNiocKiY40t_pZ9jzUBI/edit?usp=sharing) slides 14 - :
 - 
-- 1. basics continued
+- 1. basics continued (data oriented)
 
 - exercises:
   1. [HuC alphabet](./HuC-alphabet)
