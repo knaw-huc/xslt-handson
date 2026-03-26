@@ -35,7 +35,6 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
-                        <xsl:text>!</xsl:text>
                     </p>
                 </xsl:for-each-group>
             </body>
