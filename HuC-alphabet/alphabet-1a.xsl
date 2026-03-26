@@ -13,7 +13,7 @@
             </head>
             <body>
                 <xsl:for-each select="entry">
-                    <phttps://github.com/knaw-huc/xslt-handson/blob/main/HuC-alphabet/alphabet-1a.xsl#L15>
+                    <p>
                         <strong>
                             <xsl:value-of select="substring(abbr, 1, 1)"/>
                             <!--<xsl:value-of select="replace(abbr,'^([a-zA-Z]).*$','$1')"/>--> 
