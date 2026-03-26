@@ -3,11 +3,14 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     version="3.0">
+    
 
+    <xsl:variable name="debug" select="false()" static="yes"/>
+    
     <xsl:output method="html" encoding="UTF-8"/>
 
     <xsl:template match="lookup">
-        <xsl:message>?DBG: Welcome at [<xsl:value-of select="current-time()"/>]</xsl:message>
+        <xsl:message use-when="$debug">?DBG: Welcome at [<xsl:value-of select="current-time()"/>]</xsl:message>
         <html>
             <head>
                 <title>HuC alphabet</title>
@@ -21,7 +24,7 @@
                 </ul>
             </body>
         </html>
-        <xsl:message expand-text="yes">?DBG: Goodbye at [{current-time()}]</xsl:message>
+        <xsl:message use-when="$debug" expand-text="yes">?DBG: Goodbye at [{current-time()}]</xsl:message>
     </xsl:template>
     
     <xsl:template name="is_for">
