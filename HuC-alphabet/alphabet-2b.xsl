@@ -15,7 +15,7 @@
                 <ul>
                     <xsl:apply-templates select="*">
                         <xsl:sort select="."/>
-                        <xsl:with-param name="letter" select="'strong'" tunnel="yes"/>
+                        <xsl:with-param name="letter" select="'em'" tunnel="yes"/>
                     </xsl:apply-templates>
                 </ul>
             </body>
