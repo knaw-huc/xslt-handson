@@ -5,7 +5,7 @@
     exclude-result-prefixes="xs"
     version="3.0">
     
-    <xsl:param name="js-uri" select="()"/>
+    <xsl:param name="js-uri" select="'./in/dataset.js'"/>
     <xsl:param name="js-doc" select="
         if (js:unparsed-text-available($js-uri)) then
         (unparsed-text($js-uri))
@@ -14,19 +14,9 @@
     <xsl:param name="js-xml" select="json-to-xml($js-doc)"/>
     
     <xsl:template name="main">
-        <xsl:apply-templates select="$js-xml"/>
-    </xsl:template>
-    
-    <xsl:template match="node() | @*">
-        <xsl:copy>
-            <xsl:apply-templates select="node() | @*"/>
-        </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="js:*">
-        <xsl:element name="js:{local-name()}">
-            <xsl:apply-templates select="node() | @*"/>
-        </xsl:element>
+        
+        <!-- TODO: find all the artwork IDs in in/dataset.js list them via messages, a JSON, a CSV, or ... -->
+        
     </xsl:template>
     
 </xsl:stylesheet>
