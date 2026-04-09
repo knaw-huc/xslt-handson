@@ -24,7 +24,7 @@ Material for the [HuC](https://huc.knaw.nl/) [XSLT](https://www.w3.org/TR/xslt/)
 
 - [presentation](https://docs.google.com/presentation/d/1XMHip0uGTNE2inpu5WK9fP4LNiocKiY40t_pZ9jzUBI/edit?usp=sharing) from slide 18 - :
   
-  1. JSON
+  1. JSON & XSLT
 
 - exercises:
   1. [JSON](./JSON)
