@@ -19,8 +19,8 @@
     <xsl:param name="tei" select="doc('../in/artwork.xml')"/>
 
     <xsl:template name="main">
-        <xsl:for-each select="parse-json($js-doc)?*">
-            <xsl:variable name="id" select=".('@id')"/>
+        <xsl:for-each select="parse-json($js-doc)?*!.('@id')">
+            <xsl:variable name="id" select="."/>
             <xsl:if test="contains($id,'/artwork/')">
                 <xsl:message expand-text="yes">DBG? artwork ID[{$id}]</xsl:message>
             </xsl:if>
