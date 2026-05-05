@@ -29,6 +29,15 @@ Material for the [HuC](https://huc.knaw.nl/) [XSLT](https://www.w3.org/TR/xslt/)
 - exercises:
   1. [JSON](./JSON)
 
+## 7 May 2026
+
+- [presentation](https://docs.google.com/presentation/d/1XMHip0uGTNE2inpu5WK9fP4LNiocKiY40t_pZ9jzUBI/edit?usp=sharing) from slide 22 - :
+  
+  1. RDF & XSLT
+  1. oXygen [debugger](https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/debugging.html)
+
+- exercises:
+  1. [RDF](./RDF)
   
 ## oXygen
 [XSLT_handson.xpr](./XSLT_handson.xpr) is a project for [the oXygen XML editor](https://www.oxygenxml.com/).
