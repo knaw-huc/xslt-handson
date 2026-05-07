@@ -14,7 +14,27 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>cm2rdf</String>
+                                        <String>cmd2rdf</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>RDF/record-1.trix</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>cmd2rdf</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1669,7 +1689,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>cm2rdf</String>
+                                    <String>cmd2rdf</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -1717,7 +1737,7 @@
                                     <null/>
                                 </field>
                                 <field name="openInEditor">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="showInHTMLPane">
                                     <Boolean>false</Boolean>
