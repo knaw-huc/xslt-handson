@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="biolist"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-biolist.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-biolist.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Huishoudboekje met rozijnen. Personen</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl">Huygens Instituut (KNAW)</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2027-04-01">1 april 2027</date>
+            <!-- Datum later nog aanpassen -->
+            <availability status="restricted">
+               <licence
+                  target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="https://huishoudboekjemetrozijnen.org/persons"/>
+            <!-- Voorlopig -->
+         </publicationStmt>
+         <sourceDesc>
+            <p>N.A.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers057" gender="2" source="https://www.wikidata.org/wiki/Q1067">
+               <persName full="yes"><forename>Dante</forename>
+                  <surname>Alighieri</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse schrijver</note>
+               <birth when="1256"/><!-- Jaartallen onzeker, hoe aan te geven/coderen? -->
+               <death when="1321"/>
+            </person>
+            <person xml:id="pers045" gender="2" source="https://www.wikidata.org/wiki/Q185435">
+               <persName full="yes"><forename>Harry</forename>
+                  <surname>Benjamin</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duits-Amerikaanse medische specialist (endocrinoloog) en seksuoloog; algemeen bekend om zijn klinische werk met transgenders</note>
+               <birth when="1885"/>
+               <death when="1986"/>
+            </person>
+            <person xml:id="pers030" gender="1" source="https://www.wikidata.org/wiki/Q856043">
+               <persName full="yes"><surname>Bibeb</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem van E.M. Lampe-Soutberg; Nederlandse journaliste</note>
+               <birth when="1914"/>
+               <death when="2010"/>
+            </person>
+            <person xml:id="pers038" gender="1" source="https://www.wikidata.org/wiki/Q182804">
+               <persName full="yes"><forename>Karen</forename>
+                  <surname>Blixen</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem Isak Dinesen; Deense schrijfster</note>
+               <birth when="1885"/>
+               <death when="1962"/>
+            </person>
+            <person xml:id="pers001" gender="2" source="https://www.wikidata.org/wiki/Q517">
+               <persName full="yes"><forename>Napoleon</forename>
+                  <surname>Bonaparte</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Napoleon I, Keizer van de Fransen
+                  (1804-1815)</note>
+               <birth when="1769"/>
+               <death when="1821"/>
+            </person>
+            <person xml:id="pers069" gender="2" source="https://www.wikidata.org/wiki/Q1939444">
+               <persName full="yes"><forename>Murray</forename>
+                  <surname>Barr</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Canadese arts en medisch onderzoeker</note>
+               <birth when="1908"/>
+               <death when="1995"/>
+            </person>
+            <person xml:id="pers072" gender="2" source="https://www.wikidata.org/wiki/Q70269">
+               <persName full="yes"><forename>Iwan</forename>
+                  <surname>Bloch</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse arts, dermatoloog en seksuoloog</note>
+               <birth when="1872"/>
+               <death when="1922"/>
+            </person>
+            <person xml:id="pers049" gender="2" source="https://www.wikidata.org/wiki/Q692183">
+               <persName full="yes"><forename>Arne</forename>
+                  <surname>Borg</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Zweedse zwemmer</note>
+               <birth when="1901"/>
+               <death when="1987"/>
+            </person>
+            <person xml:id="pers009" gender="2" source=" https://www.wikidata.org/wiki/Q198644">
+               <persName full="yes"><forename>Paul</forename>
+                  <surname>Bourget</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Franse schrijver</note>
+               <birth when="1852"/>
+               <death when="1935"/>
+            </person>
+            <person xml:id="pers062" gender="1" source="https://www.wikidata.org/wiki/Q235308">
+               <persName full="yes"><forename>Elizabeth</forename>
+                  <surname>Bowen</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Iers-Engelse schrijfster</note>
+               <birth when="1899"/>
+               <death when="1973"/>
+            </person>
+            <person xml:id="pers068" gender="2" source="https://www.wikidata.org/wiki/Q3147680">
+               <persName full="yes"><forename>Elco</forename>
+                  <surname>Brinkman</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse politicus; minister van Welzijn, Volksgezondheid en Cultuur (1982-1989)</note>
+               <birth when="1948"/><!-- Leeft nog -->
+            </person>
+            <person xml:id="pers043" gender="2" source="https://www.wikidata.org/wiki/Q64029377">
+               <persName full="yes"><forename>Lodewijk</forename>
+                  <surname>Brunt</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse hoogleraar en antropoloog</note>
+               <birth when="1942"/>
+               <death when="2020"/>
+            </person>
+            <person xml:id="pers015" gender="2" source="https://www.wikidata.org/wiki/Q5679">
+               <persName full="yes"><forename>Lord</forename>
+                  <surname>Byron</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Engelse dichter en schrijver</note>
+               <birth when="1788"/>
+               <death when="1824"/>
+            </person>
+            <person xml:id="pers017" gender="1" source="https://www.wikidata.org/wiki/Q237726 https://rkd.nl/artists/15604">
+               <persName full="yes"><forename>Rosalba</forename>
+                  <surname>Carriera</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse kunstschilder</note>
+               <birth when="1675"/>
+               <death when="1757"/>
+            </person>
+            <person xml:id="pers021" gender="2" source="https://www.wikidata.org/wiki/Q83321">
+               <persName full="yes"><forename>Giacomo</forename>
+                  <surname>Casanova</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse avonturier en schrijver</note>
+               <birth when="1725"/>
+               <death when="1798"/>
+            </person>
+            <person xml:id="pers067" gender="2" source="https://www.wikidata.org/wiki/Q199588">
+               <persName full="yes"><forename>Carlo</forename>
+                  <surname>Collodi</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem van Carlo Lorenzini; Italiaanse schrijver</note>
+               <birth when="1826"/>
+               <death when="1890"/>
+            </person>
+            <person xml:id="pers083" gender="2" source="https://www.wikidata.org/wiki/Q12735">
+               <persName full="yes"><forename>Jan Amos</forename>
+                  <surname>Comenius</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Moravische theoloog, filosoof en pedagoog</note>
+               <birth when="1592"/>
+               <death when="1670"/>
+            </person>
+            <person xml:id="pers080" gender="1" source="https://www.wikidata.org/wiki/Q524264">
+               <persName full="yes"><forename>Roberta</forename>
+                  <surname>Cowell</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Brits autocoureur en bekende transvrouw</note>
+               <birth when="1918"/>
+               <death when="2011"/>
+            </person>
+            <person xml:id="pers002" gender="2" source="https://www.wikidata.org/wiki/Q4532611">
+               <persName full="yes"><forename>C.C.S</forename>
+                  <surname>Crone</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Utrechtse schrijver</note>
+               <birth when="1914"/>
+               <death when="1954"/>
+            </person>
+            <person xml:id="pers070" gender="1" source="https://www.wikidata.org/wiki/Q26270056">
+               <persName full="yes"><forename>Vera</forename>
+                  <surname>Danchakoff</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Russische anatoom en celbioloog</note>
+               <birth when="1879"/>
+               <death when="1950"/>
+            </person>
+            <person xml:id="pers011" gender="2" source="https://rkd.nl/artists/23737">
+               <persName full="yes"><forename>Charles</forename>
+                  <surname>Donker</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Utrechtse graficus; was net als Dirkje Kuik
+                  betrokken bij ‘Grafisch Gezelschap De Luis’</note>
+               <birth when="1940"/><!-- Leeft nog, wat te doen? -->
+            </person>
+            <person xml:id="pers032" gender="1" source="https://www.wikidata.org/wiki/Q23038662">
+               <persName full="yes"><forename>Jeanne</forename>
+                  <surname>Doomen</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse journaliste en feministe</note>
+               <birth when="1950"/><!-- Leeft nog, wat te doen? -->
+            </person>
+            <person xml:id="pers046" gender="1" source="https://www.wikidata.org/wiki/Q4766006">
+               <persName full="yes"><forename>Anke A.</forename>
+                  <surname>Ehrhardt</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duits-Amerikaanse psychologe</note><!-- Aan te vullen -->
+               <birth when="1940"/><!-- Leeft nog -->
+            </person>
+            <person xml:id="pers079" gender="1" source="https://www.wikidata.org/wiki/Q1140735">
+               <persName full="yes"><forename>Lili</forename>
+                  <surname>ELbe</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Deense kunstenares en bekende transvrouw</note>
+               <birth when="1882"/>
+               <death when="1931"/>
+            </person>
+            <person xml:id="pers050" gender="2" source="https://www.wikidata.org/wiki/Q2582844">
+               <persName full="yes"><forename>Jan</forename>
+                  <surname>Engelman</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Utrechtse dichter</note>
+               <birth when="1900"/>
+               <death when="1972"/>
+            </person>
+            <person xml:id="pers040" gender="1" source="https://www.wikidata.org/wiki/Q463275">
+               <persName full="yes"><forename>Gracie</forename>
+                  <surname>Fields</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Britse zangeres, actrice en comédienne</note>
+               <birth when="1898"/>
+               <death when="1979"/>
+            </person>
+            <person xml:id="pers076" gender="2">
+               <persName full="yes"><forename>Seymour</forename>
+                  <surname>Fisher</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Amerikaanse psycholoog</note>
+               <birth when="1922"/>
+               <death when="1996"/>
+            </person>
+            <person xml:id="pers061" gender="2" source="https://www.wikidata.org/wiki/Q43444">
+               <persName full="yes"><forename>Gustave</forename>
+                  <surname>Flaubert</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Franse schrijver</note>
+               <birth when="1821"/>
+               <death when="1880"/>
+            </person>
+            <person xml:id="pers064" gender="2" source="https://www.wikidata.org/wiki/Q76632">
+               <persName full="yes"><forename>Theodor</forename>
+                  <surname>Fontane</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse schrijver</note>
+               <birth when="1819"/>
+               <death when="1898"/>
+            </person>
+            <person xml:id="pers073" gender="2" source="https://www.wikidata.org/wiki/Q9215">
+               <persName full="yes"><forename>Sigmund</forename>
+                  <surname>Freud</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Oostenrijkse neuroloog en grondlegger van de psychoanalyse</note>
+               <birth when="1856"/>
+               <death when="1939"/>
+            </person>
+            <person xml:id="pers047" gender="2" source="https://www.wikidata.org/wiki/Q41749">
+               <persName full="yes"><forename>Joseph</forename>
+                  <surname>Goebbels</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Politicus en rijksminister van Volksvoorlichting en Propaganda in nazi-Duitsland</note>
+               <birth when="1897"/>
+               <death when="1945"/>
+            </person>
+            <person xml:id="pers022" gender="2" source="https://www.wikidata.org/wiki/Q165534 https://rkd.nl/artists/283891">
+               <persName full="yes"><forename>Carlo</forename>
+                  <surname>Goldoni</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse toneelschrijver</note>
+               <birth when="1707"/>
+               <death when="1793"/>
+            </person>
+            <person xml:id="pers029" gender="2">
+               <persName full="yes"><forename>Louis</forename><!-- Verdere gegevens onbekend, kijken in boek Alex Bakker -->
+                  <surname>Gooren</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse medisch specialist (endocrinoloog); pionier op het gebied van transgenderzorg</note>
+               <birth when="1943"/>
+               <death when="2023"/>
+            </person>
+            <person xml:id="pers010" gender="2" source=" https://www.wikidata.org/wiki/Q61425">
+               <persName full="yes"><forename>Ferdinand</forename>
+                  <surname>Gregorovius</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse historicus; gespecialiseerd in de
+                  middeleeuwse geschiedenis van Rome</note>
+               <birth when="1821"/>
+               <death when="1891"/>
+            </person>
+            <person xml:id="pers019" gender="2" source="https://www.wikidata.org/wiki/Q318769 https://rkd.nl/artists/34398">
+               <persName full="yes"><forename>Francesco</forename>
+                  <surname>Guardi</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse kunstschilder</note>
+               <birth when="1712"/>
+               <death when="1793"/>
+            </person>
+            <person xml:id="pers034" gender="1" source="https://www.wikidata.org/wiki/Q1977926">
+               <persName full="yes"><forename>Fritzi</forename>
+                  <surname>Harmsen van Beek</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse schrijfster, dichteres en tekenares</note>
+               <birth when="1927"/>
+               <death when="2009"/>
+            </person>
+            <person xml:id="pers074" gender="2" source="https://www.wikidata.org/wiki/Q552983">
+               <persName full="yes"><forename>Havelock</forename>
+                  <surname>Ellis</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Britse arts die onderzoek deed naar de menselijke seksualiteit</note>
+               <birth when="1859"/>
+               <death when="1939"/>
+            </person>
+            <person xml:id="pers048" gender="2" source="https://www.wikidata.org/wiki/Q57592">
+               <persName full="yes"><forename>Magnus</forename>
+                  <surname>Hirschfeld</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse arts en seksuoloog</note>
+               <birth when="1868"/>
+               <death when="1935"/>
+            </person>
+            <person xml:id="pers013" gender="2" source="https://www.wikidata.org/wiki/Q150471">
+               <persName full="yes"><forename>E.T.A.</forename>
+                  <surname>Hoffmann</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse schrijver</note>
+               <birth when="1776"/>
+               <death when="1822"/>
+            </person>
+            <person xml:id="pers065" gender="2" source="https://www.wikidata.org/wiki/Q6197">
+               <persName full="yes">
+                  <surname>Horatius</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Romeinse dichter.</note>
+               <birth when="-0065"/>
+               <death when="-0008"/>
+            </person>
+            <person xml:id="pers042" gender="2" source="https://www.wikidata.org/wiki/Q75835">
+               <persName full="yes"><forename>Norbert</forename>
+                  <surname>Jacques</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Luxemburgs-Duitse schrijver</note>
+               <birth when="1880"/>
+               <death when="1954"/>
+            </person>
+            <person xml:id="pers081" gender="1" source="https://www.wikidata.org/wiki/Q254323">
+               <persName full="yes"><forename>Christine</forename>
+                  <surname>Jorgensen</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Amerikaanse transvrouw en beroemdheid</note>
+               <birth when="1926"/>
+               <death when="1989"/>
+            </person>
+            <person xml:id="pers035" gender="1" source="https://www.wikidata.org/wiki/Q4362745">
+               <persName full="yes"><forename>Mensje</forename>
+                  <nameLink>van</nameLink>
+                  <surname>Keulen</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse schrijfster</note>
+               <birth when="1946"/><!-- Leeft nog -->
+            </person>
+            <person xml:id="pers037" gender="2" source="https://www.wikidata.org/wiki/Q202489">
+               <persName full="yes"><forename>Gerrit</forename>
+                  <surname>Komrij</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse schrijver</note>
+               <birth when="1944"/>
+               <death when="2012"/>
+            </person>
+            <person xml:id="pers003" gender="2" source="https://rkd.nl/artists/46782">
+               <persName full="yes"><forename>Nicolaas Martinus</forename>
+                  <surname>Kuik</surname></persName>
+               <persName full="abb"><forename>Nico</forename>
+                  <surname>Kuik</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Beeldhouwer en vader van Dirkje Kuik</note>
+               <birth when="1901"/>
+               <death when="1964"/>
+            </person>
+            <person xml:id="pers026" gender="2">
+               <persName full="yes"><forename>Broer</forename><!-- Verdere gegevens onbekend -->
+                  <surname>Kuik</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Broer van Dirkje Kuik</note>
+               <birth cert="unknown"/>
+               <death cert="unknown"/>
+            </person>
+            <person xml:id="pers056" gender="2" source="https://www.wikidata.org/wiki/Q780102">
+               <persName full="yes"><forename>Percy Wyndham</forename>
+                  <surname>Lewis</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Canadees-Britse schrijver en kunstschilder</note>
+               <birth when="1882"/>
+               <death when="1957"/>
+            </person>
+            <person xml:id="pers023" gender="2" source="https://www.wikidata.org/wiki/Q57554">
+               <persName full="yes"><forename>Georg Christoph</forename>
+                  <surname>Lichtenberg</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse schrijver en natuurkundige</note>
+               <birth when="1742"/>
+               <death when="1799"/>
+            </person>
+            <person xml:id="pers018" gender="2" source="https://www.wikidata.org/wiki/Q1855242 https://rkd.nl/artists/50736">
+               <persName full="yes"><forename>Alessandro</forename>
+                  <surname>Longhi</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse kunstschilder</note>
+               <birth when="1733"/>
+               <death when="1813"/>
+            </person>
+            <person xml:id="pers063" gender="1" source="https://www.wikidata.org/wiki/Q270632">
+               <persName full="yes"><forename>Katherine</forename>
+                  <surname>Mansfield</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nieuw-Zeelandse schrijfster</note>
+               <birth when="1888"/>
+               <death when="1923"/>
+            </person>
+            <person xml:id="pers020" gender="2"
+               source="https://www.wikidata.org/wiki/Q203643 https://rkd.nl/artists/84027">
+               <persName full="yes"><forename>James</forename>
+                  <surname>McNeill Whistler</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Amerikaanse kunstenaar</note>
+               <birth when="1834"/>
+               <death when="1903"/>
+            </person>
+            <person xml:id="pers075">
+               <persName full="yes"><forename>Heino</forename>
+                  <surname>Meyer-Bahlburg</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duits-Amerikaanse klinisch psycholoog</note>
+               <birth when="1940"/><!-- Leeft nog -->
+            </person>
+            <person xml:id="pers066" gender="2" source="https://www.wikidata.org/wiki/Q4040804 
+               https://rkd.nl/artists/56533">
+               <persName full="yes"><forename>J.H.</forename>
+                  <surname>Moesman</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Utrechtse schilder; was net als Dirkje Kuik
+                  betrokken bij ‘Grafisch Gezelschap De Luis’</note>
+               <birth when="1909"/>
+               <death when="1988"/>
+            </person>
+            <person xml:id="pers082" gender="2"
+               source="https://www.wikidata.org/wiki/Q151803 https://rkd.nl/artists/56854">
+               <persName full="yes"><forename>Piet</forename>
+                  <surname>Mondriaan</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse schilder</note>
+               <birth when="1872"/>
+               <death when="1944"/>
+            </person>
+            <person xml:id="pers044" gender="2" source="https://www.wikidata.org/wiki/Q625794">
+               <persName full="yes"><forename>John</forename>
+                  <surname>Money</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nieuw Zeelands-Amerikaanse psycholoog en seksuoloog</note>
+               <birth when="1921"/>
+               <death when="2006"/>
+            </person>
+            <person xml:id="pers008" gender="2" source=" https://www.wikidata.org/wiki/Q41568">
+               <persName full="yes"><forename>Michel</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Montaigne</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Franse filosoof, schrijver en politicus</note>
+               <birth when="1533"/>
+               <death when="1592"/>
+            </person>
+            <person xml:id="pers031" gender="1" source="https://www.wikidata.org/wiki/Q3395844">
+               <persName full="yes"><forename>Jan</forename>
+                  <surname>Morris</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Welsh schrijver en journalist</note>
+               <birth when="1926"/>
+               <death when="2020"/>
+            </person>
+            <person xml:id="pers071" gender="2" source="https://www.wikidata.org/wiki/Q154211">
+               <persName full="yes"><surname>Multatuli</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem van Eduard Douwes Dekker; Nederlandse
+                  schrijver</note>
+               <birth when="1820"/>
+               <death when="1887"/>
+            </person>
+            <person xml:id="pers053" gender="2" source="https://www.wikidata.org/wiki/Q3335">
+               <persName full="yes"><forename>George</forename>
+                  <surname>Orwell</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Britse schrijver</note>
+               <birth when="1903"/>
+               <death when="1950"/>
+            </person>
+            <person xml:id="pers012" gender="2" source="https://www.wikidata.org/wiki/Q66075">
+               <persName full="yes"><forename>Niccolò</forename>
+                  <surname>Paganini</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse violist en componist</note>
+               <birth when="1782"/>
+               <death when="1840"/>
+            </person>
+            <person xml:id="pers085" gender="2" source="https://www.wikidata.org/wiki/Q1290">
+               <persName full="yes"><forename>Blaise</forename>
+                  <surname>Pascal</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Franse wis- en natuurkundige en christelijk filosoof</note>
+               <birth when="1623"/>
+               <death when="1662"/>
+            </person>
+            <person xml:id="pers060" gender="2" source="https://www.wikidata.org/wiki/Q7199">
+               <persName full="yes"><forename>Marcel</forename>
+                  <surname>Proust</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Franse schrijver</note>
+               <birth when="1871"/>
+               <death when="1922"/>
+            </person>
+            <person xml:id="pers016" gender="1">
+               <persName full="yes"><forename>Marina</forename>
+                  <surname>Querini-Benzon</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Venetiaanse salonhoudster</note>
+               <birth when="1757"/>
+               <death when="1839"/>
+            </person>
+            <person xml:id="pers077" gender="2">
+               <persName full="yes"><forename>Ian</forename>
+                  <surname>Ramsay</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Britse medisch specialist (endocrinoloog)</note>
+               <birth when="1935"/>
+               <death when="2018"/>
+            </person>
+            <person xml:id="pers033" gender="1" source="https://www.wikidata.org/wiki/Q3307811">
+               <persName full="yes"><forename>Janice G.</forename>
+                  <surname>Raymond</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Amerikaanse radicaal-feministe</note>
+               <birth when="1943"/><!-- Leeft nog, wat te doen? -->
+            </person>
+            <person xml:id="pers004" gender="1">
+               <persName full="yes"><forename>Hendrika</forename>
+                  <surname>Roeterdink</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Moeder van Dirkje Kuik</note>
+               <birth when="1900"/>
+               <death when="1973"/>
+            </person>
+            <person xml:id="pers005" gender="2">
+               <persName full="yes"><surname>Roozen</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Eigenaar van een kruidenierswinkel in
+                  Utrecht</note>
+               <birth cert="unknown"/>
+               <death cert="unknown"/>
+            </person>
+            <person xml:id="pers006" gender="2"
+               source=" https://www.wikidata.org/wiki/Q282708 https://rkd.nl/artists/71591">
+               <persName full="yes"><forename>Jan</forename> <nameLink>van</nameLink> <surname>Scorel</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse kunstschilder</note>
+               <birth when="1495"/>
+               <death when="1562"/>
+            </person>
+            <person xml:id="pers039" gender="1" source="https://www.wikidata.org/wiki/Q274067">
+               <persName full="yes"><forename>Rosita</forename>
+                  <surname>Serrano</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem van María Martha Esther Aldunate del Campo; Chileense actrice en zangeres</note>
+               <birth when="1912"/>
+               <death when="1997"/>
+            </person>
+            <person xml:id="pers052" gender="2" source="https://rkd.nl/artists/73163">
+               <persName full="yes"><forename>Koos</forename>
+                  <nameLink>van der</nameLink>
+                  <surname>Sluys</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Grafisch kunstenaar uit Utrecht</note>
+               <birth when="1920"/>
+               <death when="2005"/>
+            </person>
+            <person xml:id="pers084" gender="1" source="https://www.wikidata.org/wiki/Q65278">
+               <persName full="yes"><forename>Dorothee</forename>
+                  <surname>Sölle</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Duitse theologe</note>
+               <birth when="1929"/>
+               <death when="2003"/>
+            </person>
+            <person xml:id="pers036" gender="2" source="https://www.wikidata.org/wiki/Q3000730">
+               <persName full="yes"><forename>Theo</forename>
+                  <surname>Sontrop</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse uitgever en jeugdvriend van Dirkje Kuik</note>
+               <birth when="1931"/>
+               <death when="2017"/>
+            </person>
+            <person xml:id="pers007" gender="2" source="https://www.wikidata.org/wiki/Q502 https://rkd.nl/artists/439822">
+               <persName full="yes"><surname>Stendhal</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem van Marie-Henri Beyle; Franse
+                  schrijver</note>
+               <birth when="1783"/>
+               <death when="1842"/>
+            </person>
+            <person xml:id="pers028" gender="1">
+               <persName full="yes"><forename>Twee</forename><!-- Verdere gegevens onbekend -->
+                  <surname>oude dames</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Eigenaars van Kuiks huis aan de Oude Kamp in de negentiende eeuw</note>
+               <birth cert="unknown"/>
+               <death cert="unknown"/>
+            </person>
+            <person xml:id="pers058" gender="2" source="https://www.wikidata.org/wiki/Q7243">
+               <persName full="yes"><forename>Lev/Leo</forename>
+                  <surname>Tolstoj</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Russische schrijver</note>
+               <birth when="1828"/>
+               <death when="1910"/>
+            </person>
+            <person xml:id="pers078" gender="2" source="https://www.wikidata.org/wiki/Q582761">
+               <persName full="yes"><forename>Henry</forename>
+                  <surname>Turner</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Amerikaanse medisch specialist (endocrinoloog)</note>
+               <birth when="1892"/>
+               <death when="1970"/>
+            </person>
+            <person xml:id="pers024" gender="1">
+               <persName full="yes"><forename>Leonie</forename>
+                  <surname>Uittenbogaard</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Vriendin van Dirkje Kuik</note>
+               <birth when="1941"/>
+               <death when="2007"/>
+            </person>
+            <person xml:id="pers027" gender="1">
+               <persName full="yes"><forename>Moeder</forename><!-- Verdere gegevens onbekend -->
+                  <surname>Uittenbogaard</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Moeder van Leonie Uittenbogaard</note>
+               <birth cert="unknown"/>
+               <death cert="unknown"/>
+            </person>
+            <person xml:id="pers041" gender="2">
+               <persName full="yes"><forename>O.M. (Otto)</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Vaal</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Nederlandse hormoonarts <!-- Aanvullen/corrigeren vanuit boek van Bakker --></note>
+               <birth when="1916"/>
+               <death when="2015"/>
+            </person>
+            <person xml:id="pers051" gender="1" source="https://www.wikidata.org/wiki/Q5067298 https://rkd.nl/artists/81282">
+               <persName full="yes"><forename>Erica</forename>
+                  <surname>Visser</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Utrechtse kunstschilder</note>
+               <birth when="1919"/>
+               <death when="2007"/>
+            </person>
+            <person xml:id="pers014" gender="2" source="https://www.wikidata.org/wiki/Q1340">
+               <persName full="yes"><forename>Antonio</forename>
+                  <surname>Vivaldi</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Italiaanse componist</note>
+               <birth when="1678"/>
+               <death when="1741"/>
+            </person>
+            <person xml:id="pers059" gender="2" source="https://www.wikidata.org/wiki/Q9068">
+               <persName full="yes"><surname>Voltaire</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Pseudoniem van François-Marie Arouet; Franse filosoof</note>
+               <birth when="1694"/>
+               <death when="1778"/>
+            </person>
+            <person xml:id="pers025" gender="1">
+               <persName full="yes"><forename>Marijke</forename>
+                  <nameLink>van</nameLink>
+                  <surname>Vuren</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Van 1958 tot 1970<!-- Bron: Digitaal Vrouwenlexicon van Nederland, maar... mogelijk tot 1960, zie interview in Prothese. Tegen Bibeb: "Na drie jaar ben ik weggegaan" --> getrouwd met Dirkje Kuik</note>
+               <birth when="1929"/>
+               <death cert="unknown"/><!-- Verdere gegevens onbekend -->
+            </person>
+            <person xml:id="pers054" gender="2" source="https://www.wikidata.org/wiki/Q436759">
+               <persName full="yes"><forename>Roger</forename>
+                  <surname>Whittaker</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Keniaans-Britse zanger</note>
+               <birth when="1936"/>
+               <death when="2023"/>
+            </person>
+            <person xml:id="pers055" gender="2" source="https://www.wikidata.org/wiki/Q207515">
+               <persName full="yes"><forename>P.G.</forename>
+                  <surname>Wodehouse</surname></persName>
+               <note type="shortdesc" xml:lang="nl">Britse schrijver</note>
+               <birth when="1881"/>
+               <death when="1975"/>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

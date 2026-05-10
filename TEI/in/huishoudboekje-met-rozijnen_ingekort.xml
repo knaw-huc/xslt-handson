@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="book"?>
+<!--
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-book.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-book.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title xml:lang="nl">Huishoudboekje met rozijnen</title>
+                                <!-- Author? -->
+                                <editor xml:id="bo">Bram Oostveen</editor>
+                        </titleStmt>
+                        <publicationStmt>
+                                <publisher>
+                                        <name ref="https://huygens.knaw.nl">Huygens Instituut
+                                                (KNAW)</name>
+                                </publisher>
+                                <pubPlace>Amsterdam</pubPlace>
+                                <date when="2026-09-01">1 september 2026</date>
+                                <!-- Fictieve datum -->
+                                <availability status="restricted">
+                                        <licence
+                                                target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                                                <p>Attribution-NonCommercial-ShareAlike 4.0
+                                                  International (CC BY-NC-SA
+                                                4.0)</p><!-- Nog uitzoeken en aanpassen -->
+                                        </licence>
+                                </availability>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <p>Dirkje Kuik, Huishoudboekje met rozijnen
+                                        (1984)<!-- Aanpassen en aanvullen --></p>
+                        </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                        <listChange>
+                                <change who="bo"><date>2025-09-25</date> Essay 1 tot en met 5
+                                        voorzien van witregels, pb's en figure's</change>
+                                <change who="bo"><date>2026-02-04</date> Essay 6 toegevoegd en
+                                        voorzien van witregels, pb's en figure's</change>
+                                <change who="bo"><date>2026-02-05</date> Kleine correcties</change>
+                                <change who="bo"><date>2026-02-12</date> Begonnen met taggen van
+                                        personen</change>
+                                <change><date>2026-02-17</date> Essay 7 toegevoegd en voorzien van
+                                        witregels, pb's en figure's</change>
+                                <!-- Aanpassen en aanvullen -->
+                        </listChange>
+                </revisionDesc>
+        </teiHeader>
+        <text>
+                <front>
+                        <pb n="8"/>
+                        <!-- Feitelijk geen nummer op de pagina -->
+                        <div type="dedication">
+                                <l><hi rend="italics">Voor mijn moeder,</hi></l>
+                                <l><hi rend="italics"><rs type="person" ref="bio.xml#pers004"
+                                                  >Hendrika Roeterdink</rs></hi></l>
+                                <l><hi rend="italics">huisvrouw van </hi></l>
+                                <l><hi rend="italics"><rs type="person" ref="bio.xml#pers003"
+                                                  >Nicolaas Martinus Kuik</rs></hi></l>
+                                <l><hi rend="italics">beeldsnijder aan de Oude Kamp</hi></l>
+                                <l><hi rend="italics">te Utrecht,</hi></l>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <l><hi rend="italics">‘Opdat ik niet vergeet’.</hi></l>
+                        </div>
+                </front>
+                <body divRole="original-translation">
+                        <div type="original" xml:lang="nl">
+                        <pb n="9"/>
+                        <div type="chapter" xml:id="chap.1">
+                                <head xml:id="head.1">Het kerkhof van Parma</head>
+                                <!-- Goed in de gaten houden of alle gedachtestreepjes wel de juiste zijn -->
+                                <figure xml:id="figure.1" n="1"/>
+                                <p xml:id="p.1" n="1">De schrijver <rs type="person"
+                                                ref="bio.xml#pers002">Crone</rs> liet twee (typisch
+                                        Utrechtse)<!-- Toevoeging tussen haakjes niet in HM -->
+                                        verhalen na, die uiteindelijk zijn bescheiden œuvre
+                                                bepalen.<ptr type="note" target="#note.orig.nl.1"/>
+                                        Welke dat precies zijn zoekt een lezer die belangstelling
+                                        heeft voor zijn werk zelf maar uit, misschien komt hij dan
+                                        terecht op de Noordpool als ik op de Zuidpool zit.</p>
+                                <p xml:id="p.2" n="2">Het zijn, de verhalen, pendanten zoals de twee
+                                                <rs type="person" ref="bio.xml#pers006">Van
+                                                Scorel</rs>-schilderijen in het Utrechts Centraal
+                                        Museum, die <rs type="person" ref="bio.xml#pers">de
+                                                schenkers</rs><!-- Te vinden? --> van een drieluik
+                                        voorstellen, een man en een vrouw.<ptr type="note"
+                                                target="#note.orig.nl.2"/> Ze spelen in de
+                                        crisistijd van de jaren dertig en tekenen het leven van twee
+                                        mensen, hun kleine burgerdroom en de vernietiging daarvan
+                                        door miezerigheid en benepenheid. Op de achtergrond staat
+                                        nog het noodlot dat ieders leven bepaalt, doorkruist, het
+                                        niet te ontlopen kerkhof.</p>
+                                <pb n="10"/>
+                                <p xml:id="p.3" n="3">Het ene verhaal is geschreven uit het
+                                        gezichtspunt van een man, het andere gaat over het kapotte
+                                        leven van een vrouw.<ptr type="note"
+                                                target="#note.orig.nl.3"/> Bij het lot van de
+                                        laatste voel ik me het meest betrokken, die stukgelopen
+                                        droom raakt me het scherpst.</p>
+                                <p xml:id="p.4" n="4">In de levensgeschiedenis van ‘Lieve
+                                                Leentje’<ptr type="note" target="#note.orig.nl.4"/>
+                                        speelt meen ik een huishoudboekje een belangrijke partij.
+                                        Het is het symbool van de schrale geesteloze rekenmachine,
+                                        waarin haar huwelijksleven verzandde, op een wijze zoals ze
+                                        zich dat als jonge vrouw met de haar eigen verwachtingen
+                                        niet had kunnen indenken.</p>
+                                <p xml:id="p.5" n="5">Tussen twee bladzijden van dat boekje kleven
+                                        een paar krenten. Ik heb als kind eveneens met zo’n
+                                        kruideniersboekje kennis gemaakt, zij het op een
+                                                afstand.<ptr type="note" target="#note.orig.nl.5"
+                                        /></p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.6" n="6">Halverwege de Herenstraat, voor de oorlog in
+                                        Utrecht een deftige straat met pleisterhuizen, het is
+                                        trouwens nog steeds een mooie straat, bevond zich een
+                                        kruidenierswinkel, en de eigenaar heette <rs type="person"
+                                                ref="bio.xml#pers005"
+                                                >Roozen</rs><!-- Niet nader geïdentificeerd. Vgl. München ’38 (2008), p. 134. Over het lezen van Jules Verne, zie p. 118 van dat boek (maar misschien niet interessant) -->.<ptr
+                                                type="note" target="#note.orig.nl.6"/> Een
+                                        vriendelijke man, hij was wat je noemt een heer in zijn
+                                        optreden, rustig, beleefd, beschaafd, gedienstig zonder
+                                        serviel te zijn. Heel de buurt deed in zijn zaak de
+                                        boodschappen. Dat werd mede aanlokkelijk gemaakt door een
+                                        uiterst coulant betalingssysteem door de heer Roozen
+                                        ingevoerd. Hij begreep de moeilijkheden van de tijd. Zijn
+                                        vaste betrouwbare klanten hadden daarom crediet. Je kreeg
+                                        dan een klein zwart boekje van hem, waarin uiterst trouw en
+                                        nauwkeurig de aankopen werden genoteerd en aan het einde van
+                                        de maand kon je betalen.</p>
+                                <p xml:id="p.7" n="7">Ons gezin behoorde niet bij die categorie
+                                        betrouwbare klanten. De inkomsten van <rs type="person"
+                                                ref="bio.xml#pers003">mijn vader</rs> waren iets te
+                                        ongeregeld en ons bestaan iets te weinig doorzichtig om een
+                                        maandelijks crediet te geven. <rs type="person"
+                                                ref="bio.xml#pers003 bio.xml#pers004">Mijn
+                                                ouders</rs> vonden het best, want ze hadden zelf ook
+                                        een uitstekende kijk op hun financiële positie en een
+                                        broertje dood aan schulden, hoe zigeunerachtig en excentriek
+                                        ze zich ook voordeden in de ogen van buurtbewoners.</p>
+                                <pb n="11"/>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.8" n="99">Deze reeks essays <hi rend="italics"
+                                                >Huishoudboekje met rozijnen</hi> die ik
+                                        gewoontegetrouw voor mijn plezier geschreven heb, zullen
+                                        voor een deel gaan over die crisistijd, herinneringen uit
+                                        mijn jeugd, aan mijn ouders, het huis in de Oude Kamp waar
+                                        ik nu nog woon; ook echter over de voettochten en korte
+                                        reizen die ik gemaakt heb tussen mijn twintigste en mijn
+                                        veertigste jaar; mijn esthetische uitkijk op literatuur en
+                                        beeldende kunst; de wat meer recente ervaringen die ik met
+                                        mijn medemensen opdeed; het doorbladeren van een gebruikt
+                                        balboekje.</p>
+                                <p xml:id="p.9" n="9">Ik houd het toch nog liever op een
+                                        huishoudboekje, zoals dat door de heer Roozen werd
+                                        verstrekt, zoals het in één van de verhalen van Crone
+                                        beschreven staat. Alleen ik trof geen krenten tussen de
+                                        verschoten bladen aan, maar, geheel passend in mijn geval,
+                                        rozijnen.</p>
+                                <figure xml:id="figure.2" n="2"/>
+                                <!-- Inspringing bij ‘Het is al weer’ ontbreekt. Mogelijk witregel? Wit heeft vermoedelijk alleen te maken met afbeelding. In HM geen witregel, wel een nieuwe alinea. Nog inhoudelijk afwegen. -->
+                                <p xml:id="p.10" n="10">Het is al weer jaren geleden op reis in
+                                        Italië, dertig jaar oud – achteraf voor mijn gevoel viel
+                                        deze reis op de drempel van de volwassenheid – dat ik de
+                                        stad Parma aandeed. En toch nog steeds staat het beeld van
+                                        die stad in mijn geheugen gegrift, viooltjes van Parma, het
+                                        zoete Parma. Ik was op zoek naar <rs type="person"
+                                                ref="bio.xml#pers001">Napoleon</rs>, ik zocht naar
+                                        de sporen van de eerste Italiaanse veldtocht, Lodi Arcole,
+                                        Rivoli, Dego, ik ondernam de tocht met de ge<pb n="12"
+                                        />schiedenis van deze veldtocht beschreven door <rs
+                                                type="person" ref="bio.xml#pers007">Stendhal</rs>rs>
+                                        in de hand – romantischer kan het niet – ik had overigens
+                                        nog wat meer dode reisgenoten in mijn mantelzak, maar zij
+                                        kwamen pas in Toscane, waar ik ook doorheen trok,
+                                        fluisterend tot leven: <rs type="person"
+                                                ref="bio.xml#pers008">Montaigne</rs>, <rs
+                                                type="person" ref="bio.xml#pers009">Bourget</rs>,
+                                                <rs type="person" ref="bio.xml#pers010"
+                                                >Gregorovius</rs>.</p>
+                                <p xml:id="p.11" n="11">Maar Stendhal wees me de weg in Parma, ik
+                                        vond er zijn roman terug: <hi rend="italics">La Chartreuse
+                                                de
+                                        Parme</hi>,<!-- La Chartreuse de Parme van Stendhal verscheen in 1839 -->
+                                        een roman die me nog steeds niet verlaten heeft en waar ik
+                                        de eerste editie van bezit, gevonden op de oude markt te
+                                        Utrecht in een derderangs boekenstalletje, een stukgelezen
+                                        exemplaar, ik moet het werkelijk eens laten binden.</p>
+                                <p xml:id="p.12" n="12">Ik deed gedurende deze reis ook nog eigen
+                                        ervaringen op. Ik denk aan een parkgezicht te Parma, het
+                                        park met de hoge notebomen, achter het hertogelijk paleis,
+                                        gebouwd door een Farnese; het wordt als museum gebruikt,
+                                        want de Farnese familie is al lang uitgestorven. Oktober,
+                                        doodstil, een paar tuinknechten snoeien de bomen, ik
+                                        herinner me het beeld van een ladder naar het niet – een
+                                        beeld waar voor mij de dood achter schuilging – en hoog in
+                                        de top tussen het fijn gebladerte zat een heer in een blauw
+                                        katoenen pak en zaagde aan een dorre tak: een ets van de
+                                        Utrechtse graficus <rs type="person" ref="bio.xml#pers011"
+                                                >Charles Donker</rs>, die lag toen echter nog in de
+                                        wieg met zijn werk. Ik heb herhaaldelijk nog na jaren in
+                                        dichtvorm getracht een souvenir te schetsen van dat sombere
+                                        melancholisch aandoende park waar de stilte slechts
+                                        verbroken werd door het piepen van de zaag. Het bleef steken
+                                        in flarden en regels, het zal te wijten zijn aan het
+                                        beklemmende beeld van die ladder naar het niet.</p>
+                                <p xml:id="p.13" n="13">Ter plaatse tekende ik wel, ‘de toren met
+                                        het horloge’, het grote plein, de bedding van de rivier de
+                                        Taro die toen droog stond.</p>
+                                <p xml:id="p.14" n="14">Parma is eigenlijk een stad waar een zekere
+                                        treurigheid tussen de architectonische resten uit een groot
+                                        verleden hangt, of ze nu uit de vijftiende of de negentiende
+                                        eeuw stammen. Het zal <pb n="13"/>zeker versterkt zijn, dit
+                                        gevoel, omdat ik <rs type="person" ref="bio.xml#pers007"
+                                                >Stendhal</rs> op zak had; het zal ook wel aan de
+                                        komst van de herfst gelegen hebben en niet te vergeten aan
+                                        mijn eigen karakter, maar het was toch een sfeer die je door
+                                        de stad werd aangegeven, ondanks dat het niet zoals Brugge
+                                        een dode stad te noemen is, o nee, tussen al die
+                                        antiquiteiten, wegwijzers naar een verleden, was er beslist
+                                        leven en bedrijf genoeg, ijstentjes, terrassen, café’s,
+                                        eethuisjes, schreeuwerigheid, een druk gemotoriseerd
+                                        verkeer.</p>
+                                <p xml:id="p.15" n="15">Ik weet nu waarom deze stad een zekere
+                                        treurigheid voor me uitstraalde. Het kwam door de kleur die
+                                        er overheerste: gedempt grijs, vervloeiend groen-grijs, zij
+                                        culmineert, deze kleur, in het park achter het museum.</p>
+                                <p xml:id="p.16" n="16">Alleen het kerkhof, een eindje buiten de
+                                        stad, heeft een andere toon. Ik trok er heen door de droge
+                                        bedding van de Taro, hoog boven me de bruggen van de oude
+                                        stad. Ik vond het precies zoals men mij het verteld had,
+                                        ongeveer een kilometer gaans, ik meen links van de rivier
+                                        aan het einde van een stoffige landweg. Daar lag het tussen
+                                        het geboomte, een fel okergeel fort, Alamo. Slechts de
+                                        wrakke karretjes bij het grote ijzeren hek, mobiele
+                                        winkeltjes waar je bloemen en andere onduidelijke
+                                        aardigheden die de doden op prijs schijnen te stellen kunt
+                                        aanschaffen, wezen er op dat er geen gladloops kanonnen
+                                        achter deze muren stonden opgesteld, slechts graven,
+                                        onaanzienlijke èn zeer versierde.</p>
+                                <p xml:id="p.17" n="17">Er bleek als ik mezelf even vergeet slechts
+                                        één bezoeker op de begraafplaats te zijn, een oude heer in
+                                        een smetteloos wit zomerpak, een strooien hoed op het hoofd.
+                                        Hij wandelde me tegemoet op het grindpad en vroeg me
+                                        vriendelijk: ‘Wat zoekt u hier,
+                                        mevrouw?’<!-- Kuik herschrijft hier waarschijnlijk haar verleden --></p>
+                                <p xml:id="p.18" n="18">Ik zei: ‘Het graf van <rs type="person"
+                                                ref="bio.xml#pers012">Paganini</rs>.’</p>
+                                <p xml:id="p.19" n="19">Hij glimlachte, hij had een oud beminnelijk
+                                        gezicht. ‘Daar ligt het,’ zei hij beleefd, wees op een
+                                        praalgraf met een zuil, een twintig meter verderop, nam
+                                        buigend zijn hoed af en wandelde <pb n="14"/>rustig door.
+                                        Vertrouwd met doden scheen hij mij.</p>
+                                <p xml:id="p.20" n="20">Een praalgraf, zo moet je het zeker noemen,
+                                        maar niet in de sentimentele stijl waar de Italiaan uit de
+                                        negentiende eeuw van hield, dan maakt het eerder een sobere
+                                        indruk. Rondom groeide er gras tussen het grind, het werd
+                                        dus niet druk bezocht; het was begrensd door een hardstenen
+                                        opstand als mijn herinnering me niet bedriegt. Ik heb daar
+                                        een tijd gezeten in de ochtendzon, het opschrift ontcijferd,
+                                        een paar schetsjes gemaakt die verloren zijn gegaan,
+                                        nagedacht over de wonderlijkheid van een reputatie die de
+                                        tijd heeft doorstaan en toch berust op van horen zeggen.</p>
+                                <p xml:id="p.21" n="21">Wat weten we werkelijk van <rs type="person"
+                                                ref="bio.xml#pers012">Paganini</rs>, de
+                                        meester-violist, de grootste aller tijden, een man waarvan
+                                        men vertelde dat de duivel hem bijstond in zijn
+                                        onovertrefbaar spel. Een musicus waar zoveel duistere en
+                                        fantastische verhalen over gaan, dat je er <rs type="person"
+                                                ref="bio.xml#pers013">Hoffmanns</rs> vertellingen
+                                        mee kan vullen, hij zou er een figuur uit kunnen zijn. Maar
+                                        er bestaat geen hoogwaardige geluidsopname of zelfs een
+                                        onvolkomen wasrol, die iets van zijn spel kan laten herleven
+                                        ter beoordeling. We geloven slechts op gezag van zijn
+                                        tijdgenoten, en horen de toon van zijn spel in onze
+                                        verbeelding.</p>
+                                <p xml:id="p.22" n="22">Als componist is hij niet groot te noemen,
+                                        paradestukken, geschreven om zijn virtuositeit te bewijzen.
+                                        Hoe speelde hij ze echter, niet als de romantische
+                                        Stehgeiger,<!-- Een stehgeiger (vertaald 'sta-violist') is een violist die een muziekensemble staand leidt met de viool in de hand. -->
+                                        denk ik, hoewel mijn verbeelding roept dat op: ik wens zijn
+                                        spel te zoeken in de buurt van de Harry Janos
+                                        Suite,<!-- Een muziekstuk van de Hongaarse componist Zoltán Kodály (1882-1967) uit 1927 -->
+                                        waar de viool eigenlijk een ondergeschikte rol heeft,
+                                        achtergrond is bij een van de meeslependste cymbaalsolo’s
+                                        uit de Hongaarse muziekgeschiedenis, erotisch
+                                        vervoerend.</p>
+                                <p xml:id="p.23" n="23">Mijn verstand zegt me echter dat dit onzin
+                                        is. Het Italiaanse vioolspel heeft zich niet ontwikkeld op
+                                        deze manier. Het ging uit van zuiverheid, helderheid,
+                                        mathematiek, en soms daarbij een stuk bravour. Paganini’s
+                                        composities wijzen daar op. Nog veel beter is dit echter te
+                                        beluisteren in het versleten stuk <pb n="15"/>muziek,
+                                        veelvuldig afgedraaid op culturele partijtjes in de jaren
+                                        vijftig, liefst met landwijn en bij kaarslicht, gelukkig
+                                        ontbraken toen nog de visnetten; ik bedoel de Jaargetijden
+                                        van <rs type="person" ref="bio.xml#pers014"
+                                        >Vivaldi</rs>,<!-- Antonio Vivaldi (1678-1741) voltooide zijn cyclus De vier jaargetijden in 1723, het is zijn bekendste werk en behoort tot de populairste werken uit de klassieke muziek. -->
+                                        muziek versleten door een verkeerd gebruik.</p>
+                                <p xml:id="p.24" n="24">Maar toch, als men, hoe blasé geworden ook,
+                                        toevallig weer eens na jaren deze getijden beluistert op de
+                                        radio of in de concertzaal, dan onderkent men in de helder
+                                        klinkende vioolsolo haast retorisch sprekende tonen. Ze
+                                        komen van over het water deze tonen, het ideaal van de
+                                        Noord-Italiaanse viooltechniek in een uitgelezen vorm, een
+                                        vorm waaraan de mathematiek ten grondslag ligt.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.25" n="25">Tonen die van over het water komen, dat kan
+                                        niets met Parma te maken hebben, hetgeen ook zo is, ze
+                                        behoren bij een geheel andere stad met een nog
+                                        indrukwekkender verleden: Venetië. Venetië, de stad die ik
+                                        tijdens mijn reis eveneens had willen bezoeken; vreemd, het
+                                        kwam er niet van.</p>
+                                <p xml:id="p.26" n="26">Ik bezocht Verona, Mantua, een aantal dorpen
+                                        rondom deze havenstad, zij echter bood me geen onderdak.
+                                        Laten we aannemen, het kwam door tijdgebrek, dat houdt het
+                                        duidelijk en simpel. En in al die volgende jaren kwam het er
+                                        ook niet van, hoewel ik juist met Venetië in gedachten een
+                                        vrij grote reeks prenten en tekeningen maakte die haar
+                                        moesten verbeelden en ik mijn gehele leven, zij het op een
+                                        hap en snap-manier, haar geschiedenis bestudeerd heb, vooral
+                                        de periode die tussen de laat-achttiende en de
+                                        vroeg-negentiende eeuw ligt.</p>
+                                <p xml:id="p.27" n="27">Venetië, de stad waar <rs type="person"
+                                                ref="bio.xml#pers015">Byron</rs> verbleef, gevlucht
+                                        uit Engeland, Stendhal vertoefde en de Salon van de eens
+                                        schone <rs type="person" ref="bio.xml#pers016">Benzon</rs>
+                                        bezocht, die ondanks haar ouderdom nog steeds een van de
+                                        geestigste vrouwen was die hij had ontmoet, ‘Ja, dat vindt
+                                        je in heel Parijs niet, zo’n vrouw niet en zo’n Salon!’</p>
+                                <p xml:id="p.28" n="28">Venetië, waar <rs type="person"
+                                                ref="bio.xml#pers017">Rosalba Carriere</rs> haar
+                                        pastelportretten maakte, <rs type="person"
+                                                ref="bio.xml#pers018">Longhi</rs> zijn als
+                                        aristocraten vermomde medeburgers afbeeldde, <pb n="16"
+                                                /><figure xml:id="figure.3" n="3"/><pb n="17"/><rs
+                                                type="person" ref="bio.xml#pers019">Guardi</rs> zijn
+                                        ansichtkaarten in olieverf, nu onbetaalbaar, voor de
+                                        toeristen op bestelling schilderde. Het zijn kunstenaars
+                                        waar ik in mijn werk wel iets mee te maken heb, die bij me
+                                        horen. <rs type="person" ref="bio.xml#pers020">Whistler</rs>
+                                        mag ik niet vergeten, al kwam hij er pas aan het einde van
+                                        de negentiende eeuw terecht. Hij liet ons een prachtige
+                                        serie etsen en litho’s na, voortgekomen uit die
+                                        kennismaking, al was hij er niet gelukkig, het was ook een
+                                        vluchtreisje.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.29" n="29">Eén naam noemde ik nog niet, en toch is zijn
+                                        persoonlijkheid onafscheidelijk verbonden met Venetië. Je
+                                        kunt hem zelfs zien als verpersoonlijking van het 18de
+                                        eeuwse Venetiaanse levensideaal, zij het dat het hier gaat
+                                        om een levensstijl die slechts door een élite gehanteerd
+                                        werd, élite geheel tussen haakjes bedoeld; als mensen waren
+                                        ze geen slag beter dan de kleine conservatieve Venetiaanse
+                                        burger of de eenvoudige kade-arbeider, glasblazer,
+                                        kantwerkster, gondelier. Deze mensen hielden er veel
+                                        simpeler levensgenoegens op na, waren vaak oprechter, in
+                                        zoverre een mens oprecht kan zijn; de uiterst speelse
+                                        materialistische levensvisie van genoemde
+                                        half-aristocratische bovenlaag, waar ook <rs type="person"
+                                                ref="bio.xml#pers021">Casanova</rs> toe behoorde,
+                                        daar hadden ze geen boodschap aan, ze keken een beetje
+                                        ironisch gestemd toe, de theaterstukken van <rs
+                                                type="person" ref="bio.xml#pers022">Goldoni</rs>
+                                        geven dit bijzonder goed aan.</p>
+                                <p xml:id="p.30" n="30">De filosofie waar die Venetiaanse bovenlaag
+                                        zijn levensstijl aan ontleende, ontwikkelde zich niet
+                                        uitsluitend in Venetië. Hij werd beleden in Parijse Salons,
+                                        door Franse, Engelse en Italiaanse filosofen; er zijn een
+                                        paar Nederlandse figuren te noemen, een handjevol 18e-eeuwse
+                                        Duitsers, <rs type="person" ref="bio.xml#pers023"
+                                                >Lichtenberg</rs> b.v.; benamingen als Rationalisme
+                                        en Verlichting dekken voor een klein deel de lading, het
+                                        woord Sensualisme raakt het breder.</p>
+                                <p xml:id="p.31" n="31">De rede, het verstand, heeft een belangrijke
+                                        plaats in deze filosofie, maar in diepste zin ging het om de
+                                        erkenning dat het leven op deze aarde het belangrijkste
+                                        gegeven is in het bestaan van de mens, en dat hij dit leven
+                                        slechts kan benaderen en bestu<pb n="18"/>deren met behulp
+                                        van zijn zinnen. Het was een a-metafysische filosofische
+                                        reactie op het dogmatisch Christelijke boete- en
+                                        doem-denken, dat reeds eeuwen de Europese beschaving
+                                        beheerste. Het is niet de eerste reactie geweest, die kunnen
+                                        we aantreffen in de vroege Renaissance, maar deze reactie
+                                        verwaterde vooral onder invloed van een uitgekookte
+                                        katholiek-christelijke kerkpolitiek.</p>
+                                <p xml:id="p.32" n="32">Werd deze filosofie van het
+                                        sensualisme<!-- ‘sensualisme’ eerder met een hoofdletter-->
+                                        in heel Europa door een hoger ontwikkelde bovenlaag beleden
+                                        en verspreid, in Venetië werd hij volmondig in praktijk
+                                        gebracht; en het is de tot in deze tijd legendarisch
+                                        gebleven figuur van Casanova, die men in hoge mate de
+                                        verpersoonlijking van deze levensvisie mag noemen.</p>
+                                <p xml:id="p.33" n="33">Casanova, even legendarisch als Paganini,
+                                        zij het om geheel andere redenen, avonturier van professie,
+                                        Venetiaan, geboren in 1725, gelegenheidsdiplomaat,
+                                        gelegenheidsdichter, mathemaat, historicus, en zoals hij
+                                        zich zelf zag: filosoof. Ik voeg daaraan toe, het is zijn
+                                        meest ongunstige kant: oplichter. Hij zag er namelijk geen
+                                        enkel been in om lichtgelovige, goedgelovige en bijgelovige
+                                        dames en heren-tijdgenoten in hun stupide zwakheden te
+                                        treffen en ze voor hun domheden financieel te laten bloeden,
+                                        hij moest ergens van leven, de filosofie geeft een droge
+                                        boterham.</p>
+                                <p xml:id="p.34" n="34">Toch zijn het niet de bovengenoemde
+                                        eigenschappen, die hem zijn faam tot ver over het graf
+                                        bezorgden, een slechte faam. In onze tijd bij het brede
+                                        publiek staat Casanova vooral model voor de niets ontziende
+                                        vrouwenverleider, een dergelijk type man noemt men ook nu
+                                        nog ‘een Casanova’.</p>
+                                <p xml:id="p.35" n="35">Hij heeft deze roep te danken aan bewaard
+                                        gebleven uitspraken en verhalen van zijn tijdgenoten, maar
+                                        vooral aan zijn gedenkschriften, die hij op zijn oude dag
+                                        schreef. Ze kwamen pas een goede vijfentwintig jaar na zijn
+                                        dood uit, 1822, te Dresden, in beknopte, bewerkte, vervalste
+                                        vorm. Ze kregen al heel <pb n="19"/>snel de naam van uiterst
+                                        gewaagde levensherinneringen, hoogst interessant voor
+                                        gelouterde historici en heren op gevorderde leeftijd, zeker
+                                        geen lectuur die je aan jongelieden laat staan dames te
+                                        lezen kon geven. Kort en goed, pornografie. Ik kan me
+                                        herinneren, hoe ik als kind letterlijk alles mocht lezen wat
+                                        er in mijn vaders boekenkast stond, slechts dat ene
+                                        paarsrood gebonden deel, daar moest ik echt van afblijven,
+                                        sprak hij bijna
+                                        ernstig.<!-- Nieuwe regel in boekuitgave, nieuwe alinea in HM -->
+                                        Het spijt me om het te zeggen, het kamertje van Blauwbaard
+                                        trekt de vrouw. Toen hij zijn kont nog niet gekeerd had
+                                        haalde ik het nieuwsgierig uit de kast. Het waren de
+                                        mémoires van Casanova in een zeer luxe editie, bewerkt door
+                                        de literator Henri Borel, het was verlucht met fraaie platen
+                                        in kleur. Schitterend vond ik het, prachtige afbeeldingen,
+                                        schone dames veelal half gekleed, tussen de gordijnen en in
+                                        bed, fraai uitgedoste heren, spannende avonturen, een
+                                        sprookje zonder spoken, geesten, draken, gruwelijkheden –
+                                        grappig, net een poppenkast maar veel vrolijker. Men ziet
+                                        het: kinderen zijn niet zo snel te bederven, ze houden er
+                                        eigen vertalingen op na, lezen met eigen ogen.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.36" n="36">Een van de belangrijkste invloeden die de
+                                        18de eeuwse filosofie van het sensualisme meebracht in het
+                                        dagelijks leven van de zij het dan ontwikkelde bovenlaag,
+                                        was een emancipatie van de vrouw. Ook hier vindt men de
+                                        treffendste voorbeelden vooral te Venetië, hoewel, er was
+                                        direct reeds ontevredenheid bij de heren van de schepping
+                                        over dit ‘bijverschijnsel’.</p>
+                                <p xml:id="p.37" n="37">Achter iedere toga van een rechter
+                                        verschuilen zich zeker een tiental vrouwen met of zonder
+                                        japon aan, schreef een kennelijk hierover misnoegde
+                                        Venetiaanse historicus uit die dagen. Vrouwen bemoeien zich
+                                        tegenwoordig met alles in onze stad, klaagde een andere
+                                        verontruste heer. Ze denken over rechtssystemen, trachten
+                                        invloed te hebben op de benoeming van ambtenaren, spreken
+                                        over politiek, intrigeren, in het café, te bed en zelfs op
+                                        het bidet. Iedere vrouw van stand, getrouwd en onge<pb
+                                                n="20"/><figure xml:id="figure.4" n="4"/>trouwd,
+                                        houdt er een minnaar op na en soms wel meer dan één, waar ze
+                                        zich publiekelijk mee vertoont als het haar uitkomt, klaagt
+                                        een derde.</p>
+                                <p xml:id="p.38" n="38">De toneelschrijver Goldoni verwondert er
+                                        zich over, dat te Parijs echtgenoten zich zoveel samen
+                                        ophouden en public. Mevrouw Vigée-Lebrun vertelt in haar
+                                        mémoires, hoe zij er stomverbaasd over was dat een vriendin
+                                        die ze opzocht in Venetië, haar ’s avonds uitnodigde om naar
+                                        het koffiehuis te gaan, zonder begeleiding.</p>
+                                <p xml:id="p.39" n="39">Het was een ontwikkeling, die in Venetië
+                                        maar ook in de rest van Europa teruggedraaid werd door de
+                                        Franse revolutie, door Napoleontische soldaterij en een
+                                        burgerdom dat eindelijk <pb n="21"/>macht verkreeg, een
+                                        burgerij veel behoudender ingesteld dan de kleine élite die
+                                        einde 18de eeuw de geestrijke dienst uitmaakte. Het feest
+                                        was voorbij, religie hernam zijn invloed, vaste zeden, vaste
+                                        gewoonten herkregen hun plaats. Nationalisme, militarisme,
+                                        een Staatskerk, het werden de pijlers die het burgergezag
+                                        moesten schragen, en vanzelf een streng zedelijk leven. De
+                                        zinnen werden haastig op stal gezet. We hebben vele namen
+                                        voor die reactie op de achttiende eeuwse Verlichting die
+                                        zoveel vrouwelijke trekken had: Victorianisme, Restauratie,
+                                        Réveil, Piétisme, het is maar een beperkte opsomming.
+                                        Slechts de wetenschap bleef gebruik maken van de
+                                        verworvenheden uit de Verlichting, daar was de ontwikkeling
+                                        niet te stuiten.</p>
+                                <p xml:id="p.40" n="40">Het was in die tijd van repressie, dat het
+                                        portret van Casanova als de niets ontziende vrouwenverleider
+                                        ontstond en zijn hoogst interessante openhartige mémoires
+                                        tot pornografie gebombardeerd werden, een vals 19de eeuws
+                                        portret, een onjuiste interpretatie.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.41" n="41">Wie was Casanova, althans in mijn ogen,
+                                        werkelijk? Een vrij lelijke man met een levendig krachtig
+                                        gezicht, onregelmatig van trekken, geestig en beweeglijk;
+                                        lang van stuk met tot op hoge leeftijd een goed statuur,
+                                        zeker niet aristocratisch in zijn houding, liever speels
+                                        fantasievol; men kan het leren uit de beschrijvingen van
+                                        tijdgenoten en de afbeeldingen die er van hem bestaan. Hij
+                                        moet een sterk erotisch gericht gevoelsleven hebben bezeten,
+                                        zijn mémoires geven het aan. Maar hij was zeker geen
+                                        ongeremde seksuele veelvraat, die uitsluitend zichzelf
+                                        zocht; al had hij veel vluchtige en minder vluchtige
+                                        affaires met vrouwen. Hij zal in het algemeen werkelijk van
+                                        ze hebben gehouden, hij verkoos ze als gezelschap boven dat
+                                        van de man. Hij onderschatte ze ook niet, zag ze nooit als
+                                        tweederangs mensen, beminnelijke gebruiksvoorwerpen.
+                                        Veelvuldig komt het in zijn herinneringen naar voren, dat
+                                        hij ook geen bezwaar had <pb n="22"/>tegen een geëmancipeerd
+                                        optreden van de vrouw, integendeel, hij converseert over
+                                        alle mogelijke onderwerpen heel graag met ze, neemt ze in
+                                        hun mening serieus, hetgeen beslist geen truc was om zo snel
+                                        mogelijk in het bed terecht te komen. Het staat eenvoudig in
+                                        zijn mémoires te lezen, mits men ze zonder 19de eeuwse
+                                        vooroordelen benadert.</p>
+                                <p xml:id="p.42" n="42">Je zou moeten stellen dat Casanova niet
+                                        alleen de kunst verstond van het verleiden, maar ook om
+                                        verleid te worden. Niet alleen zocht hij de vrouw, de vrouw
+                                        zocht ook hem, daar zal zijn reputatie als uitzonderlijk
+                                        minnaar die hij tijdens zijn leven verkreeg niet vreemd aan
+                                        geweest zijn. Ik kan me nauwelijks voorstellen dat een
+                                        onafhankelijk ingestelde vrouw zich één dag zou laten
+                                        ontgaan met een dergelijke man, gesteld dat het om een vrouw
+                                        gaat die erotisch op mannen valt. Overigens, biseksuele
+                                        verschijnselen bij de vrouw, hij krijgt er geen rood hoofd
+                                        van, ik wijs weer op de mémoires, ijverzuchtig was hij
+                                        niet.</p>
+                                <p xml:id="p.43" n="43">Hij respecteert de vrouw in de haar eigen
+                                        zinnelijkheid.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.44" n="44">Tenslotte nog een anekdote, een van de
+                                        ontroerendste uit zijn mémoires, die hem tekent als man en
+                                        minnaar. In een van de Garnier-deeltjes die ik nu in mijn
+                                        eigen bibliotheek heb staan, valt te lezen hoe hij op een
+                                        avond in een hotel een jonge vrouw ontdekt. Samen met een
+                                        oudere begeleidster zit ze te dineren in de eetzaal. Ze is
+                                        jong, ze is heel mooi en ze staat niet onwelwillend
+                                        tegenover zijn aandacht. Hij weet zich haast zeker van een
+                                        ontmoeting.</p>
+                                <p xml:id="p.45" n="45">In de nacht, alle gasten hebben zich te
+                                        ruste begeven, verlaat hij zijn kamer en dwaalt over de
+                                        gang. Ze zal komen, het staat voor hem vast. Uit het duister
+                                        schiet een vrouwenfiguur gehuld in een wijde mantel te
+                                        voorschijn. Haastig vertrekken ze naar zijn kamer. De
+                                        volgende morgen wordt hij wakker, de zon schijnt door het
+                                        raam, op de binnenplaats zingt een werkster. De vrouw, ze
+                                        slaapt nog rustig naast hem. Het is echter niet de jon<pb
+                                                n="23"/>ge aantrekkelijke vrouw, het is de veel
+                                        oudere begeleidster.</p>
+                                <p xml:id="p.46" n="46">Het was een van de heerlijkste nachten die
+                                        ik ooit met een vrouw heb doorgebracht, bekent hij zonder
+                                        schroom in zijn herinneringen, ‘genomen’ voelt hij zich
+                                        niet.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.47" n="47">Wie was Casanova? Een geëmancipeerde minnaar
+                                        die van vrouwen en van het bestaan hield. Een man die
+                                        terecht kon schrijven: er is geluk in deze wereld.</p>
+                                <figure xml:id="figure.5" n="5"/>
+                        </div>
+                        <pb n="24"/>
+                        <div type="chapter" xml:id="chap.2">
+                                <head xml:id="head.2">Het glazen oog van Neipperg</head>
+                                <figure xml:id="figure.6" n="6"/>
+                                <p xml:id="p.48" n="1">In het oude hertogelijke paleis van de
+                                        Farneses te Parma, nu in gebruik als stedelijk museum, had
+                                        ik een ontmoeting van meer beminnelijke aard dan die
+                                        ontmoeting met het gezicht van de dood in het sombere park,
+                                        achter dit museum; een portretstuk ten voeten uit van
+                                        Alexander Farnese op zeventienjarige leeftijd. Een
+                                        reproductie op kerstkaartenformaat zit nog in mijn archief
+                                        als herinnering. Het is een schilderij van Antonio Moro, een
+                                        schilder afkomstig uit mijn geboortestad, die echter een
+                                        groot deel van zijn leven in Spanje gewerkt heeft. Het hing
+                                        in een lange smalle zaal op de achterwand, alleen. Het
+                                        maakte op slag een overweldigende indruk op me. De zaal in
+                                        halflicht, hetgeen de melancholische stemming die voor mij
+                                        in een museum heerst versterkte, de simpel, haast
+                                        geabstraheerd geportretteer<pb n="25"/>de jongeling die me
+                                        beheerst en koel aankeek met een zelfverzekerdheid, waardige
+                                        eenvoud, nauwelijks passend bij zijn jaren. Deze
+                                        confrontatie bracht me op zijn zachtst gezegd nogal in
+                                        verwarring.</p>
+                                <p xml:id="p.49" n="2">Ik weet nog hoe ik heel die middag door de
+                                        kabinetten van de schilderijengalerij zwierf, zogenaamd op
+                                        zoek naar Correggio, de gebroeders Brill uit Antwerpen – het
+                                        was me bekend dat ze interessant vertegenwoordigd moesten
+                                        zijn met hun kleine landschappen, zij maakten dat
+                                        Nederlandse genre in Italië populair – toch steeds weer
+                                        terugkeerde naar de lange smalle middenzaal, naar dat
+                                        portret van die jonge man met zijn trotse heldere gezicht.
+                                        Ik was zo naïef op dat moment te denken, het ging om een
+                                        getroffenheid, berustend op zuiver esthetische aandoeningen;
+                                        nou, esthetische kwaliteiten heeft dit schilderij van Moro
+                                        zeker. Hij is een van de grootste portretschilders uit de
+                                        Nederlanden, ten onrechte wat in de schaduw gebleven, en dit
+                                        portret van Alexander Farnese behoort tot één van zijn
+                                        meesterwerken. Ouder en wijzer geworden, iets doortrapter in
+                                        de zelfkennis, begrijp ik thans dat het niet uitsluitend om
+                                        een esthetische vervoering is gegaan, het had ook te maken
+                                        met een hoogst merkwaardige aanval van verliefdheid, vandaar
+                                        mijn overgrote verwarring, dat hoort daarbij. Esthetiek en
+                                        verliefdheid – twee gevoelsmatigheden die goed in elkaar
+                                        passen, je zou het kunnen omschrijven met het woord
+                                        ‘gebruiksesthetiek’, ik ontleen de term aan de
+                                        kunstnijverheid.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.50" n="3">Om vergissingen te voorkomen, het schilderij
+                                        werkte niet op mij in als een lustplaatje, een vrouw kent
+                                        dat verschijnsel niet zo, het is haar wezensvreemd.</p>
+                                <p xml:id="p.51" n="4">In die zin heeft bijvoorbeeld pornografie me
+                                        zelden iets gedaan. Een tijdje geleden bracht ik een bezoek
+                                        aan een open avond van de Utrechtse afdeling van de
+                                        N.V.S.H., waarvan ik lid ben. Daar worden te hooi en te gras
+                                        zachte pornofilms gedraaid. <pb n="26"/>U kent ze neem ik
+                                        aan: liefderijk seksueel samenspel, groepsseks, de
+                                        drie-eenheid; sterk vergrote geslachtsdelen, close-up,
+                                        opgenomen in strijklicht, geen Ufa-oorlogsjournaal dus. Ze
+                                        zijn naar mijn mening door en door belachelijk, immers zo
+                                        beleeft men seksualiteit nooit. Ik kan me uit mijn
+                                        bescheiden praktijk bijvoorbeeld niet herinneren een
+                                        dergelijk uitzicht te hebben gehad op een penis, zelfs niet
+                                        in de grootste opgewondenheid, ik zie dan niks, ik onderga
+                                        een dergelijk genoegen met gesloten ogen; ook geloof ik niet
+                                        dat één van mijn minnaars ooit mijn vagina aanschouwd heeft
+                                        op de wijze zoals het op genoemd witte doek vertoond werd,
+                                        minnaars in opperste beroering zijn namelijk eveneens
+                                        stekeblind.</p>
+                                <p xml:id="p.52" n="5">Toch, ondanks dat sommige mannen, voor hun
+                                        fatsoen denk ik, een koele aandacht veinsden, merkte ik op
+                                        dat er behoorlijk driftig nagelgebeten werd – een heel
+                                        vrouwelijke gewoonte naar men zegt – als de spanning
+                                        opgevoerd werd, de film zijn climax bedoelde te bereiken. De
+                                        vrouwen echter die welwillend toekeken, och het is aardig
+                                        voor de jongens, beter dan stappen, begonnen vrij snel door
+                                        de vertoning heen te kletsen over van alles en nog wat
+                                        behalve de lusten, het interesseerde ze eigenlijk geen
+                                        barst. Nee, pornografische vertoningen, plaatjes en
+                                        filmpjes, daar heb je als vrouw niet veel aan, vermoedelijk
+                                        is de zwijmelfilm, de Jasmijnreeks, Privé en de doktersroman
+                                        of bijvoorbeeld hoger gestemde escape-literatuur werkzamer,
+                                        je moet je namelijk kunnen verplaatsen, identificeren met de
+                                        heldin van het stuk en dat doe je niet in een idiote film
+                                        waarin deze heldin een vagina heeft als een hooischuur,
+                                        borsten à la Nadarballonnen en billen uit de mesterij, laat
+                                        staan dat er aan een penis die de bekende sprookjesreus uit
+                                        het <choice>
+                                                <orig>Zwanengebergte</orig>
+                                                <reg>Zwabengebergte</reg>
+                                        </choice><!-- In HM: ‘Zwabengebergte’ en dat lijkt mij juist -->
+                                        niet zou misstaan enig genot te beleven valt voor een
+                                        eenvoudige vrouw.</p>
+                                <p xml:id="p.53" n="6">Nee, pornografie is herenleed.</p>
+                                <p xml:id="p.54" n="7">Ja, als het om smerige verbaliteit gaat, dan
+                                        ontlopen de sek<pb n="27"/>sen elkaar nauwelijks, mijn
+                                        moeder bijvoorbeeld vermaakte gaarne mijn vader, mijn broer
+                                        en mij met pittige anecdoten tijdens het avondmaal, ik heb
+                                        deze gewoonte overgenomen, ik vertel ze aan mijn kat.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.55" n="8">Het lijkt me niet onmogelijk als ik er nog
+                                        eens over nadenk, gezeten aan mijn schrijftafel, dat de
+                                        situatie waarin ik kwam te verkeren ten opzichte van het
+                                        schilderij van Antonio Moro te omschrijven is met het woord
+                                        kristallisatieproces, een begripsmatigheid breed beschreven
+                                        in de studie <hi rend="italics">Over de liefde</hi> van
+                                        Stendhal. Het is trouwens verrassend hoe in dit vrijwel
+                                        vergeten boek, geheel in stijl van het 18e eeuwse
+                                        sensualisme, een beetje ‘natuurkundig’ doet het aan –
+                                        wellicht persifleert het de toon van de gelijknamige studie
+                                        van Destutte de Tracy die zeker in die tijd thuis hoort –
+                                        hoe dit sensualistische werkstuk, doorregen met onvervalste
+                                        achttien-dertig-romantiek<!-- In HM afgebroken op het eerste streepje. Mogelijk ingrijpen naar achttiendertig-romantiek. -->,
+                                        ondanks zijn sentimentele naïviteit meer onthult over het
+                                        verschijnsel verliefdheid, verliefd worden, verliefd zijn
+                                        dan de hedendaagse, ik geef toe, schaarse wetenschappelijke
+                                        onderzoekingen op dit gebied. Tussen twee haakjes, Léautaud
+                                        vond de studie van Stendhal weinig geslaagd; hij heeft ook
+                                        meer belangstelling getoond voor de wetmatigheden van <hi
+                                                rend="italics">l’amour goût</hi>, is uit zijn
+                                        dagboeken te begrijpen. En ik moet toegeven: daar is in het
+                                        algemeen veel voor te zeggen, in dit geval echter lijkt me
+                                        de hogere vorm van verliefdheid die Stendhal niet voor
+                                        onmogelijk houdt, toch wel van toepassing, de situatie was
+                                        er schizoïde genoeg voor.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.56" n="9">Een paar jaar later zou me een dergelijke
+                                        emotie nog eens overkomen en ditmaal was het onmogelijk om
+                                        me te verschuilen achter de zuivere esthetiek. Het betrof
+                                        hier, het stuk hangt in het Museum van Düsseldorf, een wat
+                                        je noemt vlak gepenseeld mansportret, vakwerk, met grote
+                                        schilderkunst had het niets te <pb n="28"/>maken. Ook de
+                                        importantie van de afgebeelde figuur kon geen rol spelen,
+                                        want het ging om een Schotse burgerheer die vagelijk iets
+                                        diplomatieks had gedaan in de Duitse deelstaten, begin 18e
+                                        eeuw. Hij was even onbekend als de schilder van het
+                                        portret.</p>
+                                <p xml:id="p.57" n="10">En de aantrekkelijkheid van de jeugd die het
+                                        Farneseportret kenmerkt, kon je ook rustig vergeten; het was
+                                        de afbeelding van een vroeg verouderde vermoeide man met
+                                        sprekende gelaatstrekken, echter niet fraai te noemen.
+                                        Ingevallen wangen, een stevige iets te grote mond, een
+                                        uitgerekte kin, een sterk gebogen smalle neus, een
+                                        tuberculeuze Johan de Witt. Het lange haar in een sobere
+                                        dracht gesneden, eerder haar in de mode van de zeventiende
+                                        dan de achttiende eeuw, het zou kunnen wijzen op een zekere
+                                        behoudendheid. Het gezicht was bleek van kleur, de ogen
+                                        keken je onderzoekend aan, ze gaven dit gezicht, hoe vlak
+                                        geschilderd, een uitdrukking die sprak van mistroostigheid,
+                                        wantrouwen, ja van een zekere onbetrouwbaarheid; ironisch
+                                        van aard, past in dit beeld. Het waren de trekken van een
+                                        lastig heer, een beetje een ingehouden donderhond.</p>
+                                <p xml:id="p.58" n="11">Ik heb het vermoeden dat ik, gesteld ik
+                                        wandel komende zomer over de Keizer-Allee en ik ontmoet hem
+                                        in levende lijve in deze fraaie winkelstraat, gesteld, god
+                                        bewaar onze zielen, blits zei de heetgebakken meid. Van deze
+                                        vreemdeling zit vanzelfsprekend ook een afbeelding in mijn
+                                        verzameling briefjes en plaatjes. Bij tijd van leven – en
+                                        daar heb ik veel vertrouwen in – zal ik nog eens wat nadere
+                                        berichten over hem verzamelen, over zijn naam, zijn
+                                        achtergrond, zijn leven, onbekend maakt onbemind, en dat kan
+                                        hier niet in de bedoeling liggen, dunkt me.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.59" n="12">Ik kwam te Parma heel onverwacht, want ze
+                                        stond op dat moment in geen enkele reisgids vermeld, nog een
+                                        heel bijzondere verzameling kunstvoorwerpen op het spoor die
+                                        met de Napoleontische geschiedenis te maken had. Ze had niet
+                                        direct betrekking op Napoleon maar op het leven van zijn
+                                        tweede vrouw, <pb n="29"/>zij sleet als hertogin van Parma
+                                        na 1814 de rest van haar leven in deze stad, kan men
+                                        weten.</p>
+                                <p xml:id="p.60" n="13">Marie-Louise, het dikke domme Oostenrijkse
+                                        gansje heeft over het algemeen in de Franse
+                                        geschiedschrijverij geen beste naam. In de algemene
+                                        naslagwerken uit de 19e eeuw, bijvoorbeeld de <hi
+                                                rend="italics">Encyclopaedia Britannica</hi>, wordt
+                                        ze met drie woorden doodgezwegen, en ook Presser in zijn
+                                        ironische geschiedenis over Napoleon en zijn legende noemt
+                                        haar ‘het is geen Joséphine, deze Marie-Louise, zeker niet’;
+                                        Napoleon’s hoogste waardering kwam niet veel verder dan
+                                        ‘Marie-Louise is een kind,’ toen ze ter sprake gebracht werd
+                                        als eventuele regentes indien zijn zoon de koning van Rome
+                                        nog niet geschikt zou zijn voor troonopvolging. Die slechte
+                                        naam in de Franse geschiedschrijving over het ‘drama
+                                        Napoleon’ heeft ze vooral gekregen door haar houding na de
+                                        eerste abdicatie van Napoleon in 1814. Een dom zinnelijk
+                                        Oostenrijks varkentje dat zich door een hoogst onzedelijk
+                                        gedrag de eer niet waardig toonde de echtgenote te zijn van
+                                        een grote keizer in ballingschap en daarbij slechts een
+                                        povere belangstelling toonde voor het lot van haar
+                                        ongelukkige zoon, de koning van Rome, die na 1814 opgevoed
+                                        werd aan het Oostenrijkse hof, een opvoeding beter met het
+                                        woord ‘gijzelen’ te betitelen; Marie-Louise een
+                                        onontwikkelde overspelige vrouw, een ontaarde moeder dat is
+                                        het beeld in de Franse historie.</p>
+                                <p xml:id="p.61" n="14">Het is een bijzonder hypocriete
+                                        afschildering van het leven van een jonge vrouw, die het
+                                        slachtoffer werd van een laaghartig stukje
+                                        Frans-Oostenrijkse machtspolitiek, bedreven door Metternich
+                                        en Napoleon, een voorbeeld van stinkerige politiek die men
+                                        wel eens met het bijvoeglijk naamwoord realistisch tracht te
+                                        versieren. Het ergste is wellicht dat haar eigen familie,
+                                        haar vader keizer Frans I, in deze affaire geen poot heeft
+                                        uitgestoken om Marie-Louise een beetje te beschermen, het is
+                                        niet altijd aardig om hoog geboren te worden, soms kun je
+                                        maar beter een <pb n="30"/>burgermeisje zijn, zeker in die
+                                        tijd.</p>
+                                <p xml:id="p.62" n="15">Wat was het geval, zo tegen 1807 begon
+                                        Napoleon zich echt druk te maken over zijn opvolging.
+                                        Joséphine had hem geen kinderen geschonken en daarom liet
+                                        hij zich van haar scheiden; of het zelfs uit hoofde van
+                                        staatsbelang een wijs besluit was valt te betwijfelen. Het
+                                        is waar, ook zij heeft uiteindelijk in de geschiedenis geen
+                                        geweldige naam. Joséphine was zoals men dat noemt een vrouw
+                                        met een verleden. Voor ze met Napoleon trouwde had ze reeds,
+                                        rustig gezegd, bijna alle functionarissen die maar iets
+                                        betekenden na de val van Robespierre in bed ontvangen. Ze
+                                        was een van de grote dames uit de periode van het
+                                        Directoire. En ook tijdens de eerste jaren van het huwelijk,
+                                        toen Napoleon nog generaaltje speelde, bedroog ze hem; één
+                                        van zijn jeugdige adjudanten kon daar over meespreken,
+                                        gelijk had ze overigens, ik hoop dat het een aardige
+                                        adjudant is geweest. Maar ze heeft vooral in het begin
+                                        eveneens een belangrijke invloed uitgeoefend op Napoleons
+                                        carrière. Zij had veel relaties en ze moet de gave van een
+                                        behoedzaam diplomatiek optreden bezeten hebben, anders zou
+                                        ze gezien haar toch aristocratische verleden – haar
+                                        meisjesnaam was Tascher de la Pagerie, daarbij haar eerste
+                                        man was generaal Beauharnais geweest, omgekomen tijdens de
+                                        terreur – het Jacobijnse schrikbewind niet overleefd
+                                        hebben.</p>
+                                <p xml:id="p.63" n="16">Burger generaal Buonaparte heeft zeker van
+                                        die gaven geprofiteerd.</p>
+                                <p xml:id="p.64" n="17">Joséphine is denk ik, en dan komen we aan
+                                        wat meer huis- en tuintrekjes toe die ieders bestaan
+                                        begeleiden maar niet onbelangrijk zijn, de enige vrouw
+                                        geweest die deze schraal en lomp opgevoede zeer gesloten
+                                        jonge man een beetje in de keuken van de hogeschool-erotiek
+                                        heeft rondgeleid. Het zou me niet verbazen als zijn
+                                        affectieleven vóór die tijd vooral in de eerste jaren van
+                                        zijn militaire carrière, te beginnen bij de luitenant van de
+                                        artillerie, niet veel verder zal zijn gekomen dan een
+                                        vluggertje in <pb n="31"/>het soldatenbordeel; Plutarchus
+                                        staat er borg voor. Wellicht is het geheimzinnige eczeem
+                                        waaraan hij lijdt tijdens het beleg van Toulon op een
+                                        dergelijk bezoek terug te brengen.</p>
+                                <p xml:id="p.65" n="18">Sensuele gevoeligheid, erotische
+                                        vaardigheid, het wordt vaak vergeten, berust ook nog op
+                                        talent, net als tekenen of sonnetten schrijven of dansen,
+                                        schaken, schaatsen, sommigen leren het nooit echt goed.
+                                        Napoleon is, dat staat vast, weinig talentvol geweest. Zijn
+                                        erotisch leven doet op zijn minst wat fantasieloos aan. We
+                                        kunnen het weten uit de berichten van een paar maîtresses.
+                                        Hij had een huzarentalent, een huzaar van een heel korte
+                                        adem echter.</p>
+                                <p xml:id="p.66" n="19">Het is duidelijk, Napoleon moet behoorlijk
+                                        emotioneel gebonden zijn geweest aan deze ervaren vrouw, die
+                                        erotisch gezien altijd zijn meesteres was, een dergelijke
+                                        verhouding verbreek je niet zonder schade, ook al ben je een
+                                        dictator van zijn allure. Dat de hele scheidingsaffaire hem
+                                        niet zo goed heeft gezeten bewijst bijvoorbeeld het verhaal
+                                        van Talleyrand. Hij vertelt ons in zijn mémoires heel
+                                        nuchter, koel en zakelijk het verloop van het beraad met
+                                        enkele hofdignitarissen over een eventueel nieuw huwelijk.
+                                        Hij was één van de raadsheren. Napoleon opent het conclaaf
+                                        met een lange redevoering waarin hij de absolute
+                                        noodwendigheid, hoe betreurenswaardig ook, uiteenzet voor
+                                        zijn ondernomen scheiding, en zijn staatkundige calculaties
+                                        nog eens openbaart om opnieuw te trouwen met een prinses uit
+                                        één van de gevestigde vorstenhuizen in Europa, maar wie? Het
+                                        was een redevoering niet zonder emotie gehouden, zegt
+                                        Talleyrand, en hij voegt er droog aan toe: het waren
+                                        gemeende emoties. Dat is heel veel gezegd voor een cynicus
+                                        die geen halve cent geloof had in dergelijke gevoeligheden,
+                                        zeker niet als de politiek een rol speelde.</p>
+                                <p xml:id="p.67" n="20">Hoe zuiver staatkundig waren trouwens die
+                                        redenen om zich eventueel te verzekeren van een natuurlijke
+                                        opvolger? Een eenvoudig rekensommetje kan ons doen inzien
+                                        dat ze op zijn minst <pb n="32"/>schimmig te noemen zijn.
+                                        Een troonopvolger geboren tussen 1808 en 1812 zou, wilde hij
+                                        voldoende voorbereid zijn om het vreemde kaartenhuis dat
+                                        Napoleon militair in elkaar getimmerd had, fatsoenlijk te
+                                        kunnen overnemen, minstens vijfentwintig jaar hebben moeten
+                                        tellen, de kalender geeft dan ongeveer 1835 aan. Het is toch
+                                        onmogelijk aan te nemen dat de keizer met zijn door en door
+                                        stomme militaire machtspolitiek die in het buitenland maar
+                                        ook in Frankrijk zelf steeds meer vijandige reacties opriep,
+                                        fysiek en geestelijk in staat zou zijn geweest het tot dat
+                                        jaar uit te houden. Reeds in 1812 doen de betrouwbare niet
+                                        bij-gefatsoeneerde<!-- In boekuitgave afgebroken op koppelteken, in HM duidelijk koppelteken -->
+                                        portretten hem kennen als een snel verouderde vervette man.
+                                        Een noodzakelijk eerder aftreden zou altijd een regentschap
+                                        ten gevolge hebben gehad, en wat daarvan terecht zou zijn
+                                        gekomen laat zich raden als men de structuur van het
+                                        binnenlandse politieke leven in Frankrijk objectief
+                                        beschouwt, een klassiek drama, een kind van staat, een
+                                        chaos.</p>
+                                <p xml:id="p.68" n="21">Het lijkt me beter aan te nemen dat de
+                                        drijfveren die Napoleon bewogen hebben tot zijn scheiding en
+                                        een nieuw huwelijk, terug te voeren zijn op
+                                        parvenu-gevoelens, kale vernederlust, uiteindelijk het begin
+                                        van een geestelijke aftakeling die zich in de jaren na 1807
+                                        tot zijn definitieve aftocht in 1814 geregeld openbaart,
+                                        dictatorjaren zijn tropenjaren.</p>
+                                <figure xml:id="figure.7" n="7"/>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <pb n="33"/>
+                                <p xml:id="p.69" n="22">Tot zover Joséphine en de Napoleontische
+                                        opvolgingsperikelen, uiteindelijk heb ik het liever over
+                                        Marie-Louise, zij was werkelijk slachtoffer. Joséphine hoe
+                                        beroerd ook behandeld tijdens haar meer ‘oude dag’, had uit
+                                        vrije keus op een te onbetrouwbaar paard gewed, dat kan
+                                        ieder mens overkomen; Marie-Louise echter werd de kans niet
+                                        eens gegeven om te wedden, men verkwanselde haar doodgewoon
+                                        als een koe, geschikt voor de dek, nog maar net 19 jaar oud.
+                                        Daarom lijkt het me niet gek haar slechte naam nu eens niet
+                                        formeel vanuit de vermeende Napoleontische grootheid te
+                                        bekijken, maar vanuit een humane hoek waar de befaamde
+                                        vrouwelijke psyche wat beter tot zijn recht komt.</p>
+                                <p xml:id="p.70" n="23">Wat blijft er dan eigenlijk over van dat
+                                        ontaarde moederschap – die overspeligheid laat ik even
+                                        terzijde, een futiliteit in dit geval nog met een heel
+                                        aardige achtergrond – als we de zaken in het leven van
+                                        Marie-Louise keurig op een rijtje zetten. Het ging hier om
+                                        een jonge vrouw, heel stijf en beschermd opgevoed, zeker
+                                        niet geëmancipeerd Venetiaans, voor mijn part lichtzinnig
+                                        zoals het hier en daar in Europa de beter gesitueerde vrouw
+                                        vergund werd. Aan te nemen is dat het om een opvoeding is
+                                        gegaan in de trant van de Duitse pedagoog Campe, die
+                                        voorschreef jonge meisjes in ieder geval in het geheel niet
+                                        seksueel voor te lichten, zelfs niet voor te bereiden op een
+                                        mogelijk moederschap; die zaken moet de toekomstige
+                                        echtgenoot ze duidelijk maken, die zaken zouden voor het
+                                        huwelijk alleen maar ongunstig werken op de geest van de
+                                        jonge vrouw. Je diende haar goede manieren te leren, je
+                                        diende gewilligheid aan te kweken, serviliteit en
+                                        gehoorzaamheid; ook de verstandelijke vermogens had je zo
+                                        weinig mogelijk te ontwikkelen, dat zou haar op het slechte
+                                        pad kunnen brengen. Godsdienstigheid was vanzelf een schone
+                                        zaak en het maagdelijk afleveren aan een toekomstige
+                                        echtgenoot de plicht van de ouders.</p>
+                                <p xml:id="p.71" n="24">In die zin was Marie-Louise beslist
+                                        opgevoed.</p>
+                                <pb n="34"/>
+                                <p xml:id="p.72" n="25">En deze halfvolwassen vrouw, groen als gras,
+                                        werd op pad gestuurd naar een soldatenkeizer waarover ze
+                                        heel haar jeugd niet anders had gehoord dan dat hij een
+                                        schurk, een beestmens, een woesteling, een halve duivel was.
+                                        Buitendien, nog geen jaar voor haar huwelijk moet ze in de
+                                        verte hebben meegemaakt hoe zijn legers in de hoofdstad van
+                                        haar beminde vaderland afschuwelijk huis hadden gehouden,
+                                        moordend en plunderend. Het springtouwliedje: Maria kom je
+                                        eten, de tafel staat gedekt, schiet me in gedachten,
+                                        heerlijk, zuurkool met spek.</p>
+                                <p xml:id="p.73" n="26">Ik denk toch wel dat ze met lood aan haar
+                                        schoenen in de koets is gestapt, richting Parijs.</p>
+                                <p xml:id="p.74" n="27">Napoleon had echter haast. Hij heeft haar
+                                        komst niet afgewacht, hij reed haar tegemoet en het werd een
+                                        onstuimige ontmoeting, hij moet zich hebben gedragen alsof
+                                        hij twintig jaren telde. De hofdames die haar begeleidden,
+                                        gaat het verhaal, waren er een beetje confuus van. Wat
+                                        minder fraai historisch vertaald zou je kunnen zeggen: het
+                                        lieve kind werd bij de eerste ontmoeting meteen maar stevig
+                                        genaaid, voor een onervaren jonge vrouw niet zo erg prettig
+                                        mede gezien de kwaliteiten van Napoleon als minnaar.</p>
+                                <p xml:id="p.75" n="28">Hij schijnt de volgende morgen zeer tevreden
+                                        te zijn geweest, of dat voor haar zo heeft gelegen waag ik
+                                        te betwijfelen, het lijkt me eerder dat er sprake was van
+                                        een ‘traumatische ervaring’.</p>
+                                <p xml:id="p.76" n="29">In minder dan een jaar was de hele affaire
+                                        rond; had men haar ook nog om het eens volks uit te drukken
+                                        ‘met jong geschopt’, Marie kom je eten, de tafel is
+                                        gedekt.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <p xml:id="p.77" n="30">Ook de bevalling verliep niet eenvoudig, het
+                                        is te lezen in de herinneringen van Napoleons lijfarts
+                                        Corvisart, en wat dat moet hebben betekend kan men zich
+                                        indenken als men de medische mogelijkheden uit die tijd
+                                        kent. Gelukkig komt Napoleon in dit gebeuren meer menselijk
+                                        te voorschijn dan men van hem zou <pb n="35"/><figure
+                                                xml:id="figure.8" n="8"/>hebben gedacht. ‘Behandel
+                                        haar als een vrouw uit het volk’ moet hij hebben gezegd toen
+                                        het mis dreigde te gaan. ‘Als er echter werkelijk gevaar is,
+                                        spaar dan in ieder geval het leven van de keizerin’. Een van
+                                        God gezonden Bourbon zou zich in die situatie aan de regels
+                                        van de Kerk hebben gehouden: het kind gaat vóór. Wellicht is
+                                        deze gevoeligheid terug te brengen op zijn uitspraak:
+                                        Marie-Louise is een kind. Een verkracht kind, voeg ik er aan
+                                        toe.</p>
+                                <p xml:id="p.78" n="31">Indien men op een zeer eenvoudige manier
+                                        rekening houdt met de psychologie is het dacht ik geen
+                                        wonder dat in het licht van de beschreven ervaringen
+                                        Marie-Louise de keizerlijke baby nooit geheel als door haar
+                                        gewenst zal hebben gezien. Het was haar eenvoudig
+                                        opgedrongen, de moederinstincten hebben ook hun grens. Het
+                                        is toch bekend hoe vrouwen in een echt gelukkige situatie in
+                                        het begin vaak moeite hebben hun baby te aanvaarden. Ze
+                                        moeten gewoon wennen, er naar toe groeien. Zelfs dit laatste
+                                        is Marie-Louise niet eens werkelijk gegund geweest.</p>
+                                <pb n="36"/>
+                                <p xml:id="p.79" n="32">In 1811 is ze alweer druk op inspectie met
+                                        Napoleon door zijn uitgebreide keizerrijk, onder andere
+                                        bezochten ze de Nederlanden, en in de jaren
+                                        1811<!-- In HM: 1812 --> tot tegen 1814 kan men moeilijk van
+                                        een rustige tijd spreken, de ondergang tekende zich reeds
+                                        af. Houden we er nog niet eens rekening mee dat deze
+                                        adelaarsbaby onder voortdurend toezicht heeft gestaan van
+                                        een zeer bedilzuchtige hofhouding, ja hoeveel kan er op die
+                                        wijze eigenlijk overblijven van de uitoefening van een
+                                        normaal moederschap.</p>
+                                <p xml:id="p.80" n="33">Voor Marie-Louise was na de eerste abdicatie
+                                        van Napoleon in 1814 het diplomatieke feestje nog niet
+                                        afgelopen. Ze kreeg opnieuw een bijrolletje aangeboden in de
+                                        alkoof-politiek. En in dit geval ging het om een bijrolletje
+                                        dat nog smeriger in elkaar zat dan haar eerste gedwongen
+                                        optreden voor het heil van het vaderland. Vorst Metternich
+                                        had het uitgebroed, een Metternich op zijn vunzigst; en
+                                        opnieuw, haar aardige fatsoenlijke hooggeboren familie liet
+                                        het toe.</p>
+                                <p xml:id="p.81" n="34">Ten eerste werd haar zoon ‘in beslag
+                                        genomen’ door haar familie te Wenen, ik heb het reeds gezegd
+                                        dat heeft deze vrouw niet erg gedeerd, en de reden vind ik
+                                        nogmaals begrijpelijk. Zij zelf werd in Italië
+                                        ondergebracht, kreeg Parma toegewezen als woonplaats, daar
+                                        mocht ze hertogin spelen. Op het oog een niet onaardige
+                                        geste, maar ze stond er wel geheel onder curatele van het
+                                        Oostenrijks gezag en ze had niet veel in te brengen. Het was
+                                        zoals het passend geacht werd voor een vrouw, toen en vaak
+                                        ook nu nog; een ornamentele positie, zachte sector.</p>
+                                <p xml:id="p.82" n="35">Dan echter krijgt het grijze muisje een heel
+                                        vies staartje. Speciaal op verzoek van Metternich werd ze
+                                        opgescheept met een ‘gouverneur’ die de taak had haar een
+                                        beetje in de gaten te houden, zo’n vrouw alleen je weet maar
+                                        nooit. Metternich zocht hiervoor een bijzonder trouwe
+                                        medewerker uit, een
+                                        carrière-diplomaat<!-- In boekuitgave afgebroken op koppelteken, in HM koppelteken -->
+                                        die ook als militair zijn verdiensten had. Hij miste een
+                                        oog, vermoedelijk verloren op het slagveld, droeg daar een
+                                        zwart lapje voor hetgeen hem een romantisch en martiaal
+                                                voor<pb n="37"/>komen gaf. Zeker is dat hij uiterst
+                                        kundig heel veel vuile zaakjes voor Metternich had
+                                        opgeknapt.</p>
+                                <p xml:id="p.83" n="36">Ook was er van hem bekend, dat hij een
+                                        onweerstaanbare vrouwenverleider was, een groot charmeur,
+                                        juist om deze kwaliteit koos Metternich hem voor zijn
+                                        vaderlijke beschermersrol uit. Neipperg kreeg namelijk de
+                                        opdracht om Marie-Louise gedurende zijn begeleiding zo snel
+                                        mogelijk in bed te hoppen, en liefst met gevolgen, in ieder
+                                        geval moest het duidelijk onder het oog van ‘de wereld’
+                                        gebeuren, opdat Napoleon niet alleen een verslagen soldaat
+                                        zou zijn, maar ook teruggedrongen zou worden naar het
+                                        sociale peil van de stupide ellendeling die – de klassieke
+                                        klucht – door zijn vrouw cocu gemaakt wordt. Een keizer met
+                                        horentjes kon toch moeilijk nog rechten laten gelden, meende
+                                        de vorst, een juiste gedachte. Het hele geval ruikt, liever
+                                        stinkt duidelijk naar een bijna persoonlijke wraakneming, en
+                                        het was het ook mijns inziens. Napoleon toen hij nog macht
+                                        kon uitoefenen heeft Metternich als diplomaat herhaaldelijk
+                                        en public te kakken gezet. Dat moet hij niet hebben
+                                        vergeten, want hij was een trotse ijdele man, die een hoge
+                                        dunk van zichzelf had.</p>
+                                <p xml:id="p.84" n="37">Napoleon zou de woorden van Machiavelli
+                                        beter in gedachten hebben moeten houden: ‘Het is
+                                        noodzakelijk je vijanden of totaal te vernietigen of in de
+                                        honingpot op te sluiten, mutileer je ze slechts ten halve
+                                        dan komen ze later terug en halen dubbel hun graan’.</p>
+                                <p xml:id="p.85" n="38">Voor dit doortrapte spelletje offerde de
+                                        vorst rustig de goede naam van de dochter van zijn broodheer
+                                        op en keizer Frans sloot er de ogen voor. Schurk en
+                                        schurkjesmaat.</p>
+                                <p xml:id="p.86" n="39">De affaire liep ogenschijnlijk op rolletjes,
+                                        Metternich had ook niet anders verwacht. Neipperg, de
+                                        bekwame medewerker, had voldoende kwaliteiten, wist hij. De
+                                        man was niet alleen een charmeur, hij had eveneens hersens,
+                                        en Marie-Louise kwam uit een wat je noemt heetgebakerde
+                                        familie. Dat was ook een van de <pb n="38"/>redenen waarom
+                                        Napoleon haar had uitgezocht als dekkoe, gewillig maar
+                                        zinnelijk, een familietrek. Nee, het moest slagen, daar kon
+                                        je de klok gelijk op zetten. En inderdaad, zelfs voordat de
+                                        grote Napoleon zijn terugkeer in 1815 naar Frankrijk
+                                        ondernam, was hij reeds cocu gemaakt zoals dit niet veel
+                                        keizers overkomen is, althans niet zo in het openbaar.</p>
+                                <p xml:id="p.87" n="40">Toch zijn er kanten aan deze intrige die mij
+                                        doen vermoeden dat Marie-Louise dit keer niet geheel het
+                                        willoze slachtoffer is geweest en dat daardoor de zaak
+                                        uiteindelijk op een wijze verliep die nooit gewenst is door
+                                        Metternich of haar Habsburgse familie.</p>
+                                <p xml:id="p.88" n="41">Het heeft natuurlijk in de bedoeling gelegen
+                                        dat Neipperg wanneer hij zijn diensten overtuigend had
+                                        bewezen, zich zou terugtrekken als de befaamde Moor uit het
+                                        drama. Zo liep het echter niet, er ontwikkelde zich een
+                                        histoire d’amour tussen deze twee mensen die helemaal niet
+                                        de gewenste lucht had van een vuile belachelijke zaak,
+                                        integendeel tot aan de dood van Neipperg bleven ze openlijk
+                                        samenleven in grote genegenheid en Marie-Louise schonk hem
+                                        niet slechts één zoon maar minstens twee. En in dit geval
+                                        bleek ze helemaal geen slechte moeder, want ze heeft hemel
+                                        en aarde bewogen om genoemde kinderen een goede positie te
+                                        bezorgen in de maatschappij tot grote ergernis van haar
+                                        fatsoenlijke familie te Wenen, die niets heeft nagelaten om
+                                        haar in deze plannen te dwarsbomen. Niet Neipperg maakte
+                                        Marie-Louise tot slachtoffer van zijn verleidingskunst, maar
+                                        hij kwam dusdanig onder de indruk van haar
+                                        charmes,<!-- In HM volgt hier: ‘nauwelijks moeilijk voor haar, ze was een stuk jonger,’ -->
+                                        dat hij haar niet meer heeft willen verlaten, wat je noemt
+                                        smoorverliefd op haar moet zijn geworden. Ik denk dat ze het
+                                        daar heel bewust op aangelegd heeft, het domme gansje was
+                                        meer tot volwassenheid gekomen dan men in Wenen begrepen
+                                        had. Het zocht eindelijk eens eenvoudig geluk en Neipperg,
+                                        we weten het, moet een goede minnaar zijn geweest gezien
+                                        zijn reputatie.</p>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <pb n="39"/>
+                                <figure xml:id="figure.9" n="9"/>
+                                <pb n="40"/>
+                                <p xml:id="p.89" n="42">Een bewijs voor het vermoeden dat er
+                                        werkelijk een grote genegenheid heeft bestaan tussen deze
+                                        twee mensen vond ik in die onbekende collectie die ik reeds
+                                        eerder noemde. Na mijn bezoek aan het kerkhof te Parma waar
+                                        ik het graf van Paganini vond, bracht ik in de namiddag ook
+                                        nog een bezoek aan een klooster in de buurt gelegen. Ik wist
+                                        dat zich daar een prachtige verzameling Chinese
+                                        penseeltekeningen moest bevinden en ik voelde eerlijk gezegd
+                                        de behoefte, door al die graven, gedenktekens van grote en
+                                        kleine doden wat bevangen, me eens luchtiger te verstrooien
+                                        en dan zijn Chinese penseeltekeningen daar bijzonder goed
+                                        geschikt voor in hun simpelheid, hun ijle
+                                        ruimtelijkheid.</p>
+                                <p xml:id="p.90" n="43">Bij de poort van het klooster werd ik meer
+                                        dan hoffelijk ontvangen. Ik kreeg ongevraagd een
+                                        doctorsgraad opgespeld – vanwege mijn uilebril denk ik – een
+                                        professorentitel hoewel ik nooit gegoocheld heb, en gelukkig
+                                        kwam er ook nog een schilderes
+                                        achteraan.<!-- In HM volgen hierna nog twee alinea’s: ‘De aardige broeder portier moet, het kan niet anders, de gave van de helderziendheid bezeten hebben, want toen hij me voorstelde aan de broeder beheerder van de verzameling annonceerde hij mijn landsaard met de woorden: mevrouw komt uit Ierland. [/] Ik wist in die dagen nog niet dat ik een Ierse overgrootmoeder rijk was, waar ik inderdaad sprekend op lijk, Holland en Ierland, één pot nat, meende de broeder.’ --></p>
+                                <p xml:id="p.91" n="44">Het waren fraaie tekeningen, ‘meegenomen’
+                                        door de paters die een missie onderhielden op China.</p>
+                                <p xml:id="p.92" n="45">Ik vertelde de beheerder, een erudiete
+                                        vriendelijke man, een kenner van Chinese schilderkunst, dat
+                                        het voor mij slechts een verpozingsbezoek betrof en dat ik
+                                        in werkelijkheid naar Parma was gekomen om Stendhaliaanse en
+                                        Napoleontische herinneringen op te duikelen.</p>
+                                <p xml:id="p.93" n="46">‘Maar dan is er hier in Parma een bijzondere
+                                        collectie over Napoleon en vooral Marie-Louise die u zeker
+                                        niet bekend zal zijn’, zei hij. ‘Wij hebben in onze stad een
+                                        bankier, de heer Glauco Lombardi, en de man houdt zich, als
+                                        hobby, bezig met de geschiedenis van Marie-Louise en de
+                                        invloed van de Franse cultuur te Parma. Hij heeft een
+                                        uitzonderlijk mooie collectie van kunstvoorwerpen bijeen
+                                        gebracht die op haar betrekking hebben. Op het ogenblik
+                                        wordt die collectie in een door hem daartoe aangekocht
+                                        paleis ingericht, volgend jaar wordt ze voor het <pb n="41"
+                                        />publiek geopend, na zijn dood valt het museum onze stad
+                                        toe, zo heeft hij het in zijn testament beschreven. Ik zal
+                                        een van zijn vrienden opbellen, opdat u het museum eventueel
+                                        morgen kan bezichtigen, het zal hem een genoegen doen u te
+                                        ontmoeten. Zijn vriend, een leraar klassieke talen, kan als
+                                        tolk optreden want hoewel hij zeer ontwikkeld is spreekt hij
+                                        slecht<!-- In HM: ‘slechts’ in plaats van ‘slecht’ [!] -->
+                                        Italiaans, u verstaat onze taal niet, zijn vriend echter
+                                        beheerst het Engels en het Frans uitstekend. We noemen de
+                                        heer Lombardi in intieme kring ‘the last husband of
+                                        Marie-Louise’ voegde hij er glimlachend aan toe, ‘u weet
+                                        denk ik, Marie-Louise was niet zo eenkennig’.</p>
+                                <figure xml:id="figure.10" n="10"/>
+                                <space dim="vertical" unit="lines" quantity="1"/>
+                                <!-- Het is de vraag of dit wel een witregel is. In HM duidelijk een witregel -->
+                                <p xml:id="p.94" n="47">Inderdaad het bleek een schitterende
+                                        verzameling te zijn.</p>
+                                <p xml:id="p.95" n="48">Een negental zalen met Empire meubelen,
+                                        kunstnijverheid, schilderkunst uit de Napoleontische tijd,
+                                        van Prudhon tot Girodet, de wieg van de koning van Rome, een
+                                        portret van Stendhal, een groot aantal precieuze
+                                        interieurtekeningen van de tekenleraar van Marie-Louise, een
+                                        interessant talent, koele lineaire tekeningen, even
+                                        ingekleurd soms, fijn van observatie. Ik kan de reeks
+                                        werkelijk meesterlijke landschappen van Daubigny nog noemen
+                                        die er zo maar hangen, want de heer Glauco Lombardi hield
+                                        van de Franse cultuur, ook in het algemeen.</p>
+                                <p xml:id="p.96" n="49">Het was een heerlijke dag, de gesprekken met
+                                        zijn vriend de leraar die uitstekend als tolk fungeerde, de
+                                        zeer bijzondere col<pb n="42"/>lectie ‘Napoleontica’, een
+                                        uiterst merkwaardig en verrassend geheel. Ik zal nooit
+                                        vergeten, het vriendelijke oude papieren gezicht van de
+                                        verzamelaar, hij liep reeds tegen de tachtig, zijn
+                                        kinderlijke plezier in mijn enthousiasme. Hij nodigde me uit
+                                        om op zijn landgoed te komen logeren. Ik was echter in die
+                                        dagen zo rechtlijnig, eigenwijs als een potkacheltje, ik
+                                        moest en ik zou die week vertrekken naar Lucca, ik had
+                                        haast, ik was nog maar net dertig.</p>
+                                <p xml:id="p.97" n="50">In een vitrine van het museum trof ik mijn
+                                        bewijsstuk aan, het lag toen in een doos te pronken. Het was
+                                        een sieraad, uit verschillende edelstenen samengesteld.</p>
+                                <p xml:id="p.98" n="51">Neipperg had het ten geschenke gekregen op
+                                        een van zijn naam- of verjaardagen van Marie-Louise, een
+                                        glazen oog.</p>
+                        </div>
+                         </div>
+                </body>
+        </text>
+        <standOff>
+                <listAnnotation type="typednotes" xml:lang="nl">
+                        <note xml:id="note.1" type="dating"><!-- id en type zijn verzonnen --><!-- Het gaat hier om algemene informatie die ik wil vermelden bij hoofdstuk 1, de formulering is nog voorlopig -->
+                                <p>‘Het kerkhof van Parma’ verscheen eerder als eerste aflevering
+                                        van een reeks met de titel ‘Een huishoudboekje met rozijnen’
+                                        in <hi rend="italics">Hollands Maandblad</hi>, 23 (1981),
+                                        afl. 409 (december), p. 38-42.</p>
+                        </note>
+                </listAnnotation>
+                <listAnnotation type="notes" xml:lang="nl">
+                        <note n="1" xml:id="note.orig.nl.1">
+                                <p>De bedoelde novellen van <rs type="person" ref="bio.xml#pers002"
+                                                >C.C.S. Crone</rs> zijn <hi rend="italics">Het
+                                                feestelijke leven</hi> (1939) en <hi rend="italics"
+                                                >Muziek over het water</hi> (1940).</p>
+                        </note>
+                        <note n="2" xml:id="note.orig.nl.2">
+                                <p>Waarschijnlijk gaat het om <rs type="person"
+                                                ref="bio.xml#pers006">Van Scorels</rs> ‘Drieluik van
+                                        de familie De Visscher van der Gheer’ (1555-1570). Zie:
+                                        https://collectie.centraalmuseum.nl/details/collection/912</p>
+                        </note>
+                        <note n="3" xml:id="note.orig.nl.3">
+                                <p>Respectievelijk de novellen <hi rend="italics">Het feestelijke
+                                                leven</hi> (1939) en <hi rend="italics">Muziek over
+                                                het water</hi> (1940).</p>
+                        </note>
+                        <note n="4" xml:id="note.orig.nl.4">
+                                <p>Leentje is de hoofdfiguur in <hi rend="italics">Muziek over het
+                                                water</hi> (1940) van <rs type="person"
+                                                ref="bio.xml#pers002">C.C.S. Crone</rs>.</p>
+                        </note>
+                        <note n="5" xml:id="note.orig.nl.5">
+                                <p>In <hi rend="italics">Muziek over het water</hi> (1940) van <rs
+                                                type="person" ref="bio.xml#pers002">C.C.S.
+                                                Crone</rs> staat de zin: ‘Ze zag haar huishoudboekje
+                                        degelijk gekaft op tafel liggen; lang geleden zat het eens
+                                        met twee rozijnen onder aan de broodplank vast.’ en staat in
+                                        'Muziek over het water’ (p. 144 van mijn uitgave)
+                                        <!-- Eerste druk raadplegen --></p>
+                        </note>
+                        <note n="6" xml:id="note.orig.nl.6">
+                                <p>Over de eigenaar van de kruidenierswinkel werd geen verdere
+                                        informatie gevonden. Dirkje Kuik werd op 7 oktober 1929
+                                        geboren in de Utrechtse Herenstraat, op nummer 4.
+                                        [Bron: https://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Kuik]</p>
+                        </note>
+                </listAnnotation>
+        </standOff>
+</TEI>

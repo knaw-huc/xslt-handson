@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="bibliolist"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-bibliolist.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-bibliolist.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Bibliografie</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl">Huygens Instituut (KNAW)</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2025-09-12">12 September 2026</date><!-- Fictieve datum -->
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p><!-- Verder uitzoeken -->
+               </licence>
+            </availability>
+            <ptr type="webedition"/><!-- target toevoegen met link naar webeditie -->
+         </publicationStmt>
+         <sourceDesc>
+            <p>N.A.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl xml:id="bg001">
+               <label>Bakker 2018</label>Alex Bakker, <title level="m">Transgender in Nederland. Een buitengewone geschiedenis</title>. Amsterdam 2018.<!-- controleren aan fysiek exemplaar --></bibl>
+            <bibl xml:id="bg002">
+               <label>Bibeb 1978</label>Bibeb [= E.M. Lampe-Soutberg], <title level="a">William Kuik: “’t Is duidelijk dat de natuur zich vergist heeft”. Een tekenaar/schrijver over kunst, critici, transseksualiteit, Utrecht en De Luis</title>. In: <title level="j">Vrij Nederland</title>,<!-- Boekenbijlage? --> 29 april 1978; onder de titel <title level="a">William Kuik. “’t Is duidelijk dat de natuur zich vergist heeft”</title> gebundeld in: id., <title level="m">Bibeb met...</title> Amsterdam 1980, p. 124-140.</bibl>
+            <bibl xml:id="bg038">
+               <label>Bloch 1906</label>Iwan Bloch, <title level="m">Das Sexualleben unserer Zeit in seinen Beziehungen zur modernen Kultur</title>. Berlin 1906.</bibl>
+            <bibl xml:id="bg036">
+               <label>Bowen 1935</label>Elizabeth Bowen, <title level="m">The House in Paris</title>. London 1935.<!-- controleren aan fysiek exemplaar --></bibl>
+            <bibl xml:id="bg045">
+               <label>Comenius 1631</label>[J. A. Komenský], <title level="m">Labyrint světa a lusthauz srdce</title>. [z.p.]<!-- Vlg. VW --> 1631.</bibl>
+            <bibl xml:id="bg042">
+               <label>Cowell 1954</label>Roberta Cowell, <title level="m">Roberta Cowell’s Story. An Autobiography</title>. Melbourne/London/Toronto [1954].</bibl>
+            <bibl xml:id="bg003">
+               <label>Van Deel 1984</label>T. van Deel, <title level="a">De wereld van Dirkje Kuik</title>. In: <title level="j">Trouw</title>, 26 april 1984.</bibl>
+            <bibl xml:id="bg004">
+               <label>Dinesen 1979</label>Isak Dinesen [= van Karen Blixen], <title level="m">Daguerreotypes and other essays</title>. Chigaco 1979.</bibl><!-- Informatie over de vertaling toevoegen? -->
+            <bibl xml:id="bg041">
+               <label>Elbe 1931</label>Lili Elbe, <title level="m">Fra Mand til Kvinde. Lili Elbes Bekendelser</title>. København 1931.</bibl><!-- Informatie over de vertaling toevoegen? -->
+            <bibl xml:id="bg039">
+               <label>Fisher 1975</label>Seymour Fisher, <title level="m">Het orgasme bij de vrouw</title>. Brussel/Den Haag 1975.</bibl><!-- Fysiek exemplaar bekijken. Origineel toevoegen? -->
+            <bibl xml:id="bg005">
+               <label>Fontane 1896</label>Theodor Fontane, <title level="m">Effi Briest. Roman</title>. Berlin 1896.</bibl>
+            <bibl xml:id="bg006">
+               <label>Fontijn 1984</label>Jan Fontijn, <title level="a">“Vrouwen zijn ander land”. Het huishoudboekje van Dirkje Kuik</title>. In: <title level="j">Vrij Nederland</title>, 24 maart 1984.<!-- In Boekenbijlage o.i.d. nog nazoeken en aanvullen --></bibl>
+            <bibl xml:id="bg007">
+               <label>Glendinning 1977</label>Victoria Glendinning, <title level="m">Elizabeth Bowen. Portrait of a Writer</title>. London 1977.</bibl>
+            <bibl xml:id="bg008">
+               <label>Hoekstra 1984</label>Froukje Hoekstra, <title level="a">Hollands Maandblad &amp; ander boekennieuws</title>. In: <title level="j">Nieuwsblad van het Noorden</title>, 19 juni 1984.</bibl><!-- Mogelijk niet interessant genoeg om te gebruiken, in dat geval schrappen -->
+            <bibl xml:id="bg009">
+               <label>Jacques 1920</label>Norbert Jacques, <title level="m">Dr. Mabuse der Spieler. Roman</title>. Berlin 1920.</bibl>
+            <bibl xml:id="bg010">
+               <label>Klaster 1984</label>Jan Bart Klaster, <title level="a">Huishoudboekje van ’t leven</title>. In: <title level="j">Het Parool</title>, 20 juni 1984.</bibl>
+            <bibl xml:id="bg011">
+               <label>Kuik 1968</label>William D. Kuik, <title level="m">Utrechtse notities. Tekst en tekeningen door William D. Kuik</title>. Utrecht 1968.</bibl><!-- Gedichten die Kuik opnam in Huishoudboekje nog opnemen -->
+            <bibl xml:id="bg012">
+               <label>Kuik 1969</label>William D. Kuik, <title level="m">45 gedichten</title>. [Amsterdam] 1969.</bibl>
+            <bibl xml:id="bg013">
+               <label>Kuik 1969</label>William D. Kuik, <title level="m">De held van het potspel of het geheime huwelijk. Met tekeningen van de schrijver</title>. Amsterdam 1974.</bibl>
+            <bibl xml:id="bg014">
+               <label>Kuik 1979</label>Dirkje Kuik, <title level="a">Ik ben trots op mijn nieuwbakken status van oud wijf</title>. In: <title level="j">Utrechts Nieuwsblad</title>, 31 december 1979.</bibl>
+            <bibl xml:id="bg015">
+               <label>Kuik 1980</label>W. Dirkje Kuik, <title level="a">Metamorfose</title>. In: <title level="j">NRC Handelsblad</title>, 12 december 1980</bibl>
+            <bibl xml:id="bg016">
+               <label>Kuik 1981</label>Dirkje Kuik, <title level="a">Een huishoudboekje met rozijnen. 1. Het kerkhof van Parma</title>. In: <title level="j">Hollands Maandblad</title>, 23 (1981), afl. 409 (december), p. 38-42; gebundeld in <ref target="biblio.xml#bg022">Kuik 1984</ref>, p. 9-23.<!-- Opletten dat deze verwijzing blijft kloppen --></bibl>
+            <bibl xml:id="bg017">
+               <label>Kuik 1982-1</label>Dirkje Kuik, <title level="a">Een huishoudboekje met rozijnen. 2. Het glazen oog van Neipperg</title>. In: <title level="j">Hollands Maandblad</title>, 23 (1982), afl. 410 (januari), p. 36-42; gebundeld in <ref target="biblio.xml#bg022">Kuik 1984</ref>, p. 24-42.<!-- Opletten dat deze verwijzing blijft kloppen --></bibl>
+            <bibl xml:id="bg018">
+               <label>Kuik 1982-2</label>Dirkje Kuik, <title level="a">Een huishoudboekje met rozijnen. 3. De leesplank van Lotje</title>. In: <title level="j">Hollands Maandblad</title>, 23 (1982), afl. 413 (april), p. 31-38; gebundeld in <ref target="biblio.xml#bg022">Kuik 1984</ref>, p. 43-62.<!-- Opletten dat deze verwijzing blijft kloppen --></bibl>
+            <bibl xml:id="bg019">
+               <label>Kuik 1982-2</label>Dirkje Kuik, <title level="a">Overbelicht</title>. In: <title level="j">Utrechts Nieuwsblad</title>, 18 september 1982; gebundeld in <ref target="biblio.xml#bg020">Kuik 1982-3</ref>, p. [55]-[75].<!-- Opletten dat deze verwijzing blijft kloppen --></bibl>
+            <bibl xml:id="bg020">
+               <label>Kuik 1982-3</label>Dirkje Kuik, <title level="m">De nachtcactus bloeit</title>. Utrecht 1982.</bibl>
+            <bibl xml:id="bg021">
+               <label>Kuik 1983</label>Dirkje Kuik, <title level="a">Een huishoudboekje met rozijnen. Leesplank van Lotje (II)</title>. In: <title level="j">Hollands Maandblad</title>, 25 (1983), afl. 429/430 (augustus/september), p. 41-45; gebundeld in <ref target="biblio.xml#bg022">Kuik 1984</ref>, p. 63-77.<!-- Opletten dat deze verwijzing blijft kloppen --></bibl>        
+            <bibl xml:id="bg022">
+               <label>Kuik 1984</label>Dirkje Kuik, <title level="m">Huishoudboekje met rozijnen</title>. Utrecht 1984.</bibl>
+            <bibl xml:id="bg023">
+               <label>Kuik 1985</label>Dirkje Kuik, <title level="a">Naatje op de Dam. Een beetje zedelijkheid</title>. In: <title level="j">Vrij Nederland</title>, 30 november 1985.<!-- In Boekenbijlage o.i.d. nog nazoeken en aanvullen --></bibl>
+            <bibl xml:id="bg024">
+               <label>Kuik 1984</label>Dirkje Kuik, <title level="m">Het kindercircus. Een studie in zwart en mauve</title>. Utrecht/Antwerpen 1985.</bibl>
+            <bibl xml:id="bg025">
+               <label>Money en Ehrhardt 1972</label>John Money en Anke A. Ehrhardt, <title level="m">Man &amp; Woman. Boy &amp; Girl. The Differentiation and Dimorphism of Gender Identity from Conception to Maturity</title>. Baltimore and London 1972.<!-- Uitzoeken hoe dit moet --><!-- Hier ook Mentor Pocket vermelden die Kuik in Metamorfose noemt? --></bibl>
+            <bibl xml:id="bg043">
+               <label>Morris 1974</label>Jan Morris, <title level="m">Conundrum</title>. London 1974.</bibl>
+            <bibl xml:id="bg037">
+               <label>Multatuli 1890</label>Multatuli, <title level="m">De geschiedenis van Woutertje Pieterse. Uit zyne Ideën verzameld door zyne Weduwe</title>. Amsterdam 1890.</bibl>
+            <bibl xml:id="bg026">
+               <label>Orwell 1949</label>George Orwell, <title level="m">Nineteen Eighty-Four. A Novel</title>. London 1949.</bibl>
+            <bibl xml:id="bg044">
+               <label>Pascal 1678</label>M. de Pascal, <title level="m">Pensées de M. Pascal sur la religion et sur quelques autres sujets, qui ont esté trouvées après sa mort parmy ses papiers</title>.  Paris 1687</bibl><!-- Niet de eerste druk -->
+            <bibl xml:id="bg040">
+               <label>Ramsay 1980</label>Ian Ramsay <title level="m">A synopsis of endocrinology and metabolism</title>. Guildford/London/Worcester 1980.</bibl>
+            <bibl xml:id="bg027">
+               <label>Raymond 1979</label>Janice G. Raymond, <title level="m">The Transsexual Empire. The Making of the She-Male</title>. Boston 1979.</bibl>
+            <bibl xml:id="bg028">
+               <label>Sitniakowsky 1984-1</label>I. Sitniakowsky, <title level="a">De vrouwelijke intuïtie van Dirkje Kuik. “Huishoudboekje met rozijnen” vol ongewone bekentenissen</title>. In: <title level="j">De Telegraaf</title>, 13 april 1984.</bibl>
+            <bibl xml:id="bg029">
+               <label>Sitniakowsky 1984-2</label>I. Sitniakowsky, <title level="a">De beste boeken van 1984</title>. In: <title level="j">De Telegraaf</title>, 28 december 1984.</bibl>
+            <bibl xml:id="bg030">
+               <label>Van Straten 1984</label>Hans van Straten, <title level="a">Huishoudboekje met rozijnen. Boeiende verhalen van Kuik</title>. In: <title level="j">Utrechts Nieuwsblad</title>, 14 april 1984.</bibl>
+            <bibl xml:id="bg031">
+               <label>De Vaal 1980</label>O.M. de Vaal, <title level="a">Vreemdeling in eigen lijf. De stille strijd der transseksuelen</title>. In: <title level="j">NRC Handelsblad</title>, 27 september 1980.</bibl>
+            <bibl xml:id="bg032">
+               <label>Vervoort 1984</label>Hans Vervoort, <title level="a">Te weinig krenten. Teksten van Dirkje Kuik</title>. In: <title level="j">NRC Handelsblad</title>, 11 mei 1984.</bibl>
+            <bibl xml:id="bg033">
+               <label>Warren 1984</label>Hans Warren, <title level="a">Gender-diaspora. Huishoudboekje met rozijnen. Dirkje Kuik</title>. In: <title level="j">Provinciale Zeeuwse Courant</title>, 14 april 1984.</bibl>
+            <bibl xml:id="bg034">
+               <label>Van Weel 1984</label>Paul van Weel, <title level="a">Schrijfster/graficus Dirkje Kuik. Verschrikkelijk om nog als man gezien te worden</title>. In: <title level="j">Prothese</title>, 1984, afl. 24 (november-december), p. 12-14.<!-- Titel aan te vullen? --></bibl>
+            <bibl xml:id="bg035">
+               <label>Zwier 1984</label>Gerrit Jan Zwier, <title level="a">Zo eigenwijs als een potkacheltje</title>. In: <title level="j">Leeuwarder Courant</title>, 27 april 1984.</bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
