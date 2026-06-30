@@ -39,5 +39,11 @@ Material for the [HuC](https://huc.knaw.nl/) [XSLT](https://www.w3.org/TR/xslt/)
 - exercises:
   1. [RDF](./RDF)
   
+## 1 July 2026
+
+- [presentation](https://docs.google.com/presentation/d/1XMHip0uGTNE2inpu5WK9fP4LNiocKiY40t_pZ9jzUBI/edit?usp=sharing) from slide 30 - :
+  
+  1. [regular expressions & invisible XML](./regular_expressions_and_iXML)
+
 ## oXygen
 [XSLT_handson.xpr](./XSLT_handson.xpr) is a project for [the oXygen XML editor](https://www.oxygenxml.com/).
